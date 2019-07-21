@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
 
+import { Container } from 'reactstrap';
+
 class Footer extends Component {
   render() {
     return (
-      <div>This is the Footer</div>
+      <footer>
+        <hr />
+        <Container>
+          <p>Made with React and GitHub Pages</p>
+        </Container>
+      </footer>
     );
   }
 }
