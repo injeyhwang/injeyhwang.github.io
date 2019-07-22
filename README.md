@@ -4,10 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * [react](https://github.com/facebook/react): 16.8.6
 
 ## Plugins Used
-* [@fontawesome/fontawesome-svg-core](https://github.com/FortAwesome/react-fontawesome)
-* [@fontawesome/free-brands-svg-icons](https://github.com/FortAwesome/react-fontawesome)
-* [@fontawesome/free-solid-svg-icons](https://github.com/FortAwesome/react-fontawesome)
-* [@fontawesome/react-fontawesome](https://github.com/FortAwesome/react-fontawesome)
+[react-fontawesome](https://github.com/FortAwesome/react-fontawesome)
+* @fontawesome/fontawesome-svg-core
+* @fontawesome/free-brands-svg-icons
+* @fontawesome/free-solid-svg-icons
 
 ## License
 MIT License Copyright © 2019 Michael Hwang
