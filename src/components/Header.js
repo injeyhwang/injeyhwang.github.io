@@ -35,7 +35,7 @@ class Header extends Component {
           I love to code, powerlift, run, and travel.
         </h2>
         <h2>
-          Especially in React and React Native!
+          Currently, I'm building <a className='highlight' href='https://reactjs.org/'>React</a> and <a className='highlight' href='https://facebook.github.io/react-native/'>React Native</a> Apps!
         </h2>
         {renderSocial()}
         <hr className='separator' />
