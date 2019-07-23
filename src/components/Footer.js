@@ -1,15 +1,23 @@
 import React, { Component } from 'react';
 
-import { Container } from 'reactstrap';
+import renderSocial from './SocialLinks';
 
 class Footer extends Component {
+
+  renderCopyright = () => {
+    return (
+      <div className='copyright'>
+        <p>
+          © Copyright 2019 Michael Hwang
+        </p>
+      </div>
+    );
+  }
+
   render() {
     return (
-      <footer>
-        <hr />
-        <Container>
-          <p>Made with React and GitHub Pages</p>
-        </Container>
+      <footer className='footer'>
+        {this.renderCopyright()}
       </footer>
     );
   }
