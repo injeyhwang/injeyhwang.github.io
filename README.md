@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## React Version
 * [react](https://github.com/facebook/react): 16.8.6
 
-## Plugins Used
+## Dependencies
 [react-fontawesome](https://github.com/FortAwesome/react-fontawesome)
 * @fontawesome/fontawesome-svg-core
 * @fontawesome/free-brands-svg-icons
