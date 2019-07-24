@@ -1,6 +1,8 @@
 .highlight {
+  display: inline-block;
   border-radius: 3px;
-  padding: 0px 5px 2px 4px;
+  margin: 4px 0px;
+  padding: 0px 4px 2px 4px;
   text-decoration: none;
 }
 
@@ -62,4 +64,9 @@
 .photos {
   background-color: #AAF0D1;
   color:#000000;
+}
+
+.grow:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
 }

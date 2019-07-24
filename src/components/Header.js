@@ -33,7 +33,7 @@ class Header extends Component {
           I love to code and use software to solve problems.
         </h2>
         <h2 className='summary'>
-          I also like to drink coffee and eat Sweetgreen.
+          I also like to drink coffee and try new things.
         </h2>
       </div>
     );

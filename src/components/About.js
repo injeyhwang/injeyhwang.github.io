@@ -16,15 +16,15 @@ class About extends Component {
     return (
       <p>
         I'm a new&nbsp;
-        <span className='major highlight'>
+        <span className='major highlight grow'>
           Computer Science
         </span>
         &nbsp;graduate from&nbsp;
-        <span className='school highlight'>
+        <span className='school highlight grow'>
           Columbia University
         </span>
         &nbsp;looking for full-time&nbsp;
-        <span className='job highlight'>
+        <span className='job highlight grow'>
           Software Engineering
         </span>
         &nbsp;opportunities.
@@ -36,24 +36,24 @@ class About extends Component {
     return (
       <p>
         Currently, I'm building&nbsp;
-        <a className='react highlight' href='https://reactjs.org/'>
+        <a className='react highlight grow' href='https://reactjs.org/'>
           React
         </a>
         &nbsp;and&nbsp;
-        <a className='react highlight' href='https://facebook.github.io/react-native/'>
+        <a className='react highlight grow' href='https://facebook.github.io/react-native/'>
           React Native
         </a>
         &nbsp;applications with&nbsp;
-        <a className='redux highlight' href='https://redux.js.org/'>
+        <a className='redux highlight grow' href='https://redux.js.org/'>
           Redux
         </a>
         &nbsp;and&nbsp;
-        <a className='node highlight' href='https://nodejs.org/'>
+        <a className='node highlight grow' href='https://nodejs.org/'>
           Node
         </a>
         , and it's been a ton of fun!
-        You can take a look at my projects by checking out my&nbsp;
-        <a className='github highlight' href='https://github.com/michaelihwang'>
+        Have a look at my projects by checking out my&nbsp;
+        <a className='github highlight grow' href='https://github.com/michaelihwang'>
           GitHub
         </a>
         .
@@ -65,19 +65,19 @@ class About extends Component {
     return (
       <p>
         When I'm not&nbsp;
-        <span className='coding highlight'>
+        <span className='coding highlight grow'>
           Coding
         </span>
         , you can find me&nbsp;
-        <span className='powerlifting highlight'>
+        <span className='powerlifting highlight grow'>
           Powerlifting
         </span>
         &nbsp;at the gym,&nbsp;
-        <span className='running highlight'>
+        <span className='running highlight grow'>
           Running
         </span>
         &nbsp;by the Hudson, or taking&nbsp;
-        <span className='photos highlight'>
+        <span className='photos highlight grow'>
           Photos
         </span>
         &nbsp;in New York City!

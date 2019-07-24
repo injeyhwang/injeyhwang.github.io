@@ -7,7 +7,7 @@
 html {
   background-color: #FFFCED;
   color: #282C33;
-  font-size: 1em;
+  font-size: 16px;
 }
 
 header {
@@ -50,11 +50,11 @@ section {
 
 section h2 {
   font-weight: 800;
-  margin: 0px;
+  margin: 0em;
 }
 
 section p {
-  line-height: 1.75;
+  line-height: 1.2em;
   margin: 0.5em 2em;
 }
 

@@ -7,10 +7,7 @@
 }
 
 .bounce:hover {
-  animation-name: icon-bounce;
-  animation-duration: 0.8s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in-out;
+  animation: icon-bounce 0.8s 1 ease-in-out;
 }
 
 @keyframes icon-bounce {

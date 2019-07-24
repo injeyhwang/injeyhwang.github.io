@@ -9,15 +9,15 @@ class Footer extends Component {
     return (
       <p>
         I built this website using&nbsp;
-        <span className='react highlight'>
+        <span className='react highlight grow'>
           React
         </span>
         ,&nbsp;
-        <span className='css highlight'>
+        <span className='css highlight grow'>
           CSS
         </span>
         , and&nbsp;
-        <span className='github highlight'>
+        <span className='github highlight grow'>
           GitHub Pages
         </span>
         .
