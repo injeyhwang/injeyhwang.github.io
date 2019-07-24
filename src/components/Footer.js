@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-import '../styles/components/FooterStyles.css';
+import '../styles/footer.css';
+import '../styles/highlight.css';
 
 class Footer extends Component {
 
@@ -8,15 +9,15 @@ class Footer extends Component {
     return (
       <p>
         I built this website using&nbsp;
-        <span className='react'>
-          Create React App
+        <span className='react highlight'>
+          React
         </span>
         ,&nbsp;
-        <span className='css'>
+        <span className='css highlight'>
           CSS
         </span>
         , and&nbsp;
-        <span className='github'>
+        <span className='github highlight'>
           GitHub Pages
         </span>
         .

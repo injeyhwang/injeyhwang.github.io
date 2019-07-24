@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import '../styles/components/AboutStyles.css';
+import '../styles/highlight.css';
 
 class About extends Component {
 
@@ -16,15 +16,15 @@ class About extends Component {
     return (
       <p>
         I'm a new&nbsp;
-        <span className='major'>
+        <span className='major highlight'>
           Computer Science
         </span>
         &nbsp;graduate from&nbsp;
-        <span className='school'>
+        <span className='school highlight'>
           Columbia University
         </span>
         &nbsp;looking for full-time&nbsp;
-        <span className='job'>
+        <span className='job highlight'>
           Software Engineering
         </span>
         &nbsp;opportunities.
@@ -36,24 +36,24 @@ class About extends Component {
     return (
       <p>
         Currently, I'm building&nbsp;
-        <a className='react' href='https://reactjs.org/'>
+        <a className='react highlight' href='https://reactjs.org/'>
           React
         </a>
         &nbsp;and&nbsp;
-        <a className='react' href='https://facebook.github.io/react-native/'>
+        <a className='react highlight' href='https://facebook.github.io/react-native/'>
           React Native
         </a>
         &nbsp;applications with&nbsp;
-        <a className='redux' href='https://redux.js.org/'>
+        <a className='redux highlight' href='https://redux.js.org/'>
           Redux
         </a>
         &nbsp;and&nbsp;
-        <a className='node' href='https://nodejs.org/'>
+        <a className='node highlight' href='https://nodejs.org/'>
           Node
         </a>
         , and it's been a ton of fun!
         You can take a look at my projects by checking out my&nbsp;
-        <a className='github' href='https://github.com/michaelihwang'>
+        <a className='github highlight' href='https://github.com/michaelihwang'>
           GitHub
         </a>
         .
@@ -65,22 +65,22 @@ class About extends Component {
     return (
       <p>
         When I'm not&nbsp;
-        <span className='coding'>
+        <span className='coding highlight'>
           Coding
         </span>
         , you can find me&nbsp;
-        <span className='powerlifting'>
+        <span className='powerlifting highlight'>
           Powerlifting
         </span>
         &nbsp;at the gym,&nbsp;
-        <span className='running'>
+        <span className='running highlight'>
           Running
         </span>
         &nbsp;by the Hudson, or taking&nbsp;
-        <span className='photos'>
+        <span className='photos highlight'>
           Photos
         </span>
-        &nbsp;in the city!
+        &nbsp;in New York City!
       </p>
     );
   }

@@ -1,12 +1,3 @@
-body {
-  background-color: #FFFCED;
-  color: #282C33;
-  font-weight: 400;
-  font-family: Lato, sans-serif;
-  margin: 8px;
-}
-
-/* App Styling */
 .container {
   max-width: 675px;
   margin: 64px auto;

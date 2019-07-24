@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import renderSocial from './SocialLinks';
+import Social from './Social';
 
-import '../styles/components/HeaderStyles.css';
+import '../styles/header.css';
 
 class Header extends Component {
 
@@ -29,11 +29,11 @@ class Header extends Component {
   renderSummary = () => {
     return (
       <div>
-        <h2>
-          I love building and solving problems with code.
+        <h2 className='summary'>
+          I love to code and use software to solve problems.
         </h2>
-        <h2>
-          Especially in JavaScript and Python.
+        <h2 className='summary'>
+          I also like to drink coffee and listen to Spotify.
         </h2>
       </div>
     );
@@ -45,8 +45,8 @@ class Header extends Component {
         {this.renderName()}
         {this.renderPicture()}
         {this.renderSummary()}
-        {renderSocial()}
-        <hr className='separator' />
+        <Social />
+        <hr />
       </header>
     );
   }

@@ -1,0 +1,68 @@
+/*
+ * 1em is 16px
+ * There's only one em value to overwrite (html font-size) because em scales
+ * relative to its parent (html is the root parent) font size
+ */
+
+html {
+  background-color: #FFFCED;
+  color: #282C33;
+  font-size: 1em;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3.25em;
+  font-weight: 400;
+  letter-spacing: -2px;
+  mix-blend-mode: darken;
+  text-transform: uppercase;
+}
+
+header h2 {
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 1;
+}
+
+hr {
+  margin-top: 1em;
+  border-width: 0;
+  border-top: 2px solid #282C33;
+  width: 700px;
+}
+
+body {
+  font-weight: 400;
+  font-family: Lato, sans-serif;
+  margin: 0.5em;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+section {
+  margin: 2em auto;
+}
+
+section h2 {
+  font-weight: 800;
+  margin: 0px;
+}
+
+section p {
+  line-height: 1.75;
+  margin: 0.5em 2em;
+}
+
+footer {
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

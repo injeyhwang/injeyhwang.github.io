@@ -4,7 +4,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Footer from './components/Footer';
 
-import './styles/App.css';
+import './styles/app.css';
 
 class App extends Component {
 

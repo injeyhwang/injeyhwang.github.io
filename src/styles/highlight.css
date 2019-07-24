@@ -1,0 +1,65 @@
+.highlight {
+  border-radius: 3px;
+  padding: 0px 5px 2px 4px;
+  text-decoration: none;
+}
+
+.major {
+  background-color: #3949AB;
+  color:#FFFFFF;
+}
+
+.school {
+  background-color: #ACCCE6;
+  color:#000000;
+}
+
+.job {
+  background-color: #EF5350;
+  color:#FFFFFF;
+}
+
+.react {
+  background-color: #7ED8F7;
+  color:#282C33;
+}
+
+.redux {
+  background-color: #6F4FB6;
+  color:#FFFFFF;
+}
+
+.node {
+  background-color: #2D6B1B;
+  color:#FFFFFF;
+}
+
+.css {
+  background-color: #3468E8;
+  color:#FFFFFF;
+}
+
+.github {
+  background-color: #222222;
+  color:#FFFFFF;
+}
+
+.coding {
+  background-color: #FFC107;
+  color:#000000;
+}
+
+.powerlifting {
+  background-color: #4CAF50;
+  color:#FFFFFF;
+}
+
+.running {
+  background-color: #EB5929;
+  color:#FFFFFF;
+}
+
+.photos {
+  background-color: #AAF0D1;
+  color:#000000;
+}
