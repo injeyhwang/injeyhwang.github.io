@@ -1,0 +1,16 @@
+footer {
+  
+  text-align: center;
+}
+
+footer hr {
+  margin-top: 16px;
+  border-width: 0;
+  border-top: 2px solid #282C33;
+  width: 500px;
+}
+
+.copyright {
+  color: #282C33;
+  font-size: 16px;
+}

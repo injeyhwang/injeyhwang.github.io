@@ -8,6 +8,8 @@ import {
   faTwitter
 } from '@fortawesome/free-brands-svg-icons';
 
+import '../styles/components/SocialLinksStyles.css';
+
 const renderSocial = () => {
   return (
     <div className='social-links'>
