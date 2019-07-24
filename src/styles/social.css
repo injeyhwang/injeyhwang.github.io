@@ -1,6 +1,29 @@
-.social-links a {
+.social-links {
+  display: inline-block;
   color:#282C33;
-  font-size: 2em;
+  font-size: 2.5em;
   padding: 0px 8px;
   text-decoration: none;
+}
+
+.bounce:hover {
+  animation-name: icon-bounce;
+  animation-duration: 0.8s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes icon-bounce {
+  25% {
+    transform: translateY(-0.5em);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(-0.25em);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }

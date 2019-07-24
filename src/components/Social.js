@@ -11,20 +11,20 @@ import {
 import '../styles/social.css';
 
 class Social extends Component {
-  
+
   render () {
     return (
-      <div className='social-links'>
-        <a href='https://www.twitter.com/michaelihwang'>
+      <div>
+        <a className='social-links bounce' href='https://www.twitter.com/michaelihwang'>
           <FontAwesomeIcon icon={faTwitter} />
         </a>
-        <a href='https://www.instagram.com/michaelihwang/'>
+        <a className='social-links bounce' href='https://www.instagram.com/michaelihwang/'>
           <FontAwesomeIcon icon={faInstagram} />
         </a>
-        <a href='https://www.linkedin.com/in/michaelihwang/'>
+        <a className='social-links bounce' href='https://www.linkedin.com/in/michaelihwang/'>
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a href='https://github.com/michaelihwang'>
+        <a className='social-links bounce' href='https://github.com/michaelihwang'>
           <FontAwesomeIcon icon={faGithub} />
         </a>
       </div>

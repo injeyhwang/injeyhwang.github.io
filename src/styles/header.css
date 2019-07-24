@@ -1,11 +1,11 @@
 .big-space {
-  padding: 0px 4px
+  padding: 0px 4px;
 }
 
 .profile-pic {
   height: 150px;
   border-radius: 75px;
-  pointer-events: none
+  pointer-events: none;
 }
 
 .summary {
