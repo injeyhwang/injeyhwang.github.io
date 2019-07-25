@@ -26,7 +26,7 @@ class App extends Component {
     return (
       <div style={themeMode}>
         <div className='container'>
-          <ThemeSwitch power={this.state.darkMode} toggleTheme={this.toggleTheme} />
+          <ThemeSwitch toggleTheme={this.toggleTheme} />
           <Header />
           <About />
           <Footer />
