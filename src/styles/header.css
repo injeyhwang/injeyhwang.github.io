@@ -1,3 +1,47 @@
+.letter {
+  transition: color 0.15s ease-in-out;
+}
+
+.letter-M:hover {
+  color: #006BB6;
+}
+
+.letter-I:hover {
+  color: #FF8F00;
+}
+
+.letter-C:hover {
+  color: #FFC107;
+}
+
+.letter-H:hover {
+  color: #833AB4;
+}
+
+.letter-A:hover {
+  color: #AAF0D1;
+}
+
+.letter-E:hover {
+  color: #EB5929;
+}
+
+.letter-L:hover {
+  color: #7ED8F7;
+}
+
+.letter-W:hover {
+  color: #EF5350;
+}
+
+.letter-N:hover {
+  color: #3949AB;
+}
+
+.letter-G:hover {
+  color: #4CAF50;
+}
+
 .big-space {
   padding: 0px 4px;
 }

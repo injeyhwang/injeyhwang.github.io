@@ -41,6 +41,11 @@
   color:#FFFFFF;
 }
 
+.fun {
+  background-color: #4CAF50;
+  color:#FFFFFF;
+}
+
 .github {
   background-color: #222222;
   color:#FFFFFF;
@@ -52,8 +57,8 @@
 }
 
 .powerlifting {
-  background-color: #4CAF50;
-  color:#FFFFFF;
+  background-color: #CBCDCD;
+  color:#000000;
 }
 
 .running {
@@ -66,7 +71,11 @@
   color:#000000;
 }
 
+.grow {
+  transition: transform 0.2s ease-in-out;
+}
+
 .grow:hover {
-  transform: scale(1.2);
-  transition: all 0.2s ease-in-out;
+  transform: scale(1.25);
+  cursor: pointer;
 }

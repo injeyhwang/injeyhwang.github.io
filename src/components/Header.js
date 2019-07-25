@@ -9,9 +9,19 @@ class Header extends Component {
   renderName = () => {
     return (
       <h1>
-        <span>MICHAEL</span>
+        <span className='letter letter-M'>M</span>
+        <span className='letter letter-I'>I</span>
+        <span className='letter letter-C'>C</span>
+        <span className='letter letter-H'>H</span>
+        <span className='letter letter-A'>A</span>
+        <span className='letter letter-E'>E</span>
+        <span className='letter letter-L'>L</span>
         <span className='big-space'>&nbsp;</span>
-        <span>HWANG</span>
+        <span className='letter letter-H'>H</span>
+        <span className='letter letter-W'>W</span>
+        <span className='letter letter-A'>A</span>
+        <span className='letter letter-N'>N</span>
+        <span className='letter letter-G'>G</span>
       </h1>
     );
   }
@@ -33,7 +43,7 @@ class Header extends Component {
           I love to code and use software to solve problems.
         </h2>
         <h2 className='summary'>
-          I also like to drink coffee and try new things.
+          This website is interactive... try hovering over items!
         </h2>
       </div>
     );

@@ -4,14 +4,6 @@ import '../styles/highlight.css';
 
 class About extends Component {
 
-  renderHeading = (title) => {
-    return (
-      <h2>
-        {title}
-      </h2>
-    );
-  }
-  
   renderIntro = () => {
     return (
       <p>
@@ -51,8 +43,11 @@ class About extends Component {
         <a className='node highlight grow' href='https://nodejs.org/'>
           Node
         </a>
-        , and it's been a ton of fun!
-        Have a look at my projects by checking out my&nbsp;
+        , and it's been a ton of&nbsp;
+        <span className='fun highlight grow'>
+          Fun
+        </span>
+        ! Take a look at my projects by checking out my&nbsp;
         <a className='github highlight grow' href='https://github.com/michaelihwang'>
           GitHub
         </a>
@@ -80,7 +75,7 @@ class About extends Component {
         <span className='photos highlight grow'>
           Photos
         </span>
-        &nbsp;in New York City!
+        &nbsp;in New York!
       </p>
     );
   }
@@ -88,11 +83,12 @@ class About extends Component {
   render() {
     return (
       <section className='about'>
-        {this.renderHeading('About {')}
+        <h2>
+          About
+        </h2>
         {this.renderIntro()}
         {this.renderSkills()}
         {this.renderClosing()}
-        {this.renderHeading('}')}
       </section>
     );
   }

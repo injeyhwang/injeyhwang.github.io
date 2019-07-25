@@ -1,13 +1,30 @@
 .social-links {
   display: inline-block;
   color:#282C33;
-  font-size: 2.5em;
+  font-size: 2em;
   padding: 0px 8px;
   text-decoration: none;
+  transition: color 0.25s ease-out;
+}
+
+.twitter-color:hover {
+  color: #1DA1F2;
+}
+
+.instagram-color:hover {
+  color: #C13584;
+}
+
+.linkedin-color:hover {
+  color: #0077B5;
+}
+
+.github-color:hover {
+  color: #4078C0;
 }
 
 .bounce:hover {
-  animation: icon-bounce 0.8s 1 ease-in-out;
+  animation: icon-bounce 0.5s 1 ease-in-out;
 }
 
 @keyframes icon-bounce {
