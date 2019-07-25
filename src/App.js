@@ -7,7 +7,7 @@ import Footer from './sections/Footer';
 
 import theme from './util/Themes';
 
-import './styles/app.css';
+import './styles/App.css';
 
 class App extends Component {
   state = {

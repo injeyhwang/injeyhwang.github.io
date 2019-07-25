@@ -3,10 +3,8 @@
  * There's only one em value to overwrite (html font-size) because em scales
  * relative to its parent (html is the root parent) font size
  */
-
 html {
   font-size: 16px;
-  overflow: scroll;
 }
 
 ::-webkit-scrollbar {
@@ -24,15 +22,15 @@ header h1 {
 }
 
 header h2 {
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: 400;
   line-height: 1;
 }
 
 hr {
-  margin: 1em 0em;
+  margin: 1em 1em;
   border-width: 0;
-  border-top: 0.125em solid #282C33;
+  border-top: 2px solid #282C33;
   width: auto;
 }
 
@@ -52,7 +50,7 @@ section {
 section h2 {
   font-size: 1.75em;
   font-weight: 800;
-  margin: 0em;
+  margin: 0em 0.5em;
 }
 
 section p {
@@ -67,4 +65,38 @@ footer {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* 
+ * If the screen size is 500px wide or less, set the font-size of <h1> to 30px
+ */
+@media screen and (max-width: 500px) {
+  header h1 {
+    font-size: 2.5em;
+  }
+
+  header h2 {
+    font-size: 1em;
+  }
+
+  header .profile-pic {
+    height: 8em;
+    border-radius: 4em;
+  }
+
+  header .social-links {
+    font-size: 1.5em;
+  }
+
+  section h2 .letter {
+    font-size: 1em;
+  }
+
+  section p {
+    font-size: 0.9em;
+  }
+
+  footer .copyright {
+    font-size: 0.9em;
+  }
 }
