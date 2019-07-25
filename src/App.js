@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import Header from './components/Header';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Footer from './components/Footer';
+import ThemeSwitch from './components/ThemeSwitch';
+import Header from './sections/Header';
+import About from './sections/About';
+import Footer from './sections/Footer';
 
 import theme from './util/Themes';
 
@@ -11,7 +11,7 @@ import './styles/app.css';
 
 class App extends Component {
   state = {
-    darkMode: true
+    darkMode: false
   };
 
   toggleTheme = () => {
@@ -26,9 +26,9 @@ class App extends Component {
     return (
       <div style={themeMode}>
         <div className='container'>
+          <ThemeSwitch power={this.state.darkMode} toggleTheme={this.toggleTheme} />
           <Header />
           <About />
-          <Portfolio />
           <Footer />
         </div>
       </div>

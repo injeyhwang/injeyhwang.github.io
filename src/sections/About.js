@@ -59,7 +59,27 @@ class About extends Component {
         <span className='fun highlight grow'>
           Fun
         </span>
-        ! Take a look at my projects by checking out my&nbsp;
+        !
+      </p>
+    );
+  }
+
+  renderProject = () => {
+    return (
+      <p>
+        And in case you were wondering, I built this website from the grounds up using&nbsp;
+        <span className='react highlight grow'>
+          React
+        </span>
+        ,&nbsp;
+        <span className='css highlight grow'>
+          CSS
+        </span>
+        , and&nbsp;
+        <span className='github highlight grow'>
+          GitHub Pages
+        </span>
+        . You can check out my other projects by going to my&nbsp;
         <a className='github highlight grow' href='https://github.com/michaelihwang'>
           GitHub
         </a>
@@ -98,6 +118,7 @@ class About extends Component {
         {this.renderHeading()}
         {this.renderIntro()}
         {this.renderCurrent()}
+        {this.renderProject()}
         {this.renderClosing()}
       </section>
     );
