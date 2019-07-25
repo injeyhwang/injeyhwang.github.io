@@ -9,7 +9,7 @@ class ThemeSwitch extends Component {
 
   render() {
     return (
-      <div className='theme-switch slide' onClick={this.props.toggleTheme}>
+      <div className='theme-switch bounce-diagonal' onClick={this.props.toggleTheme}>
         <FontAwesomeIcon icon={faLightbulb} />
         <div className='theme-switch-text'>Lights</div>
       </div>

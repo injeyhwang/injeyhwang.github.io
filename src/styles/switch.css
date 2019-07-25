@@ -21,7 +21,7 @@
   padding-top: 0.125em;
 }
 
-.slide {
+.bounce-diagonal {
   animation: icon-bounce-diagonal 1.25s infinite;
 }
 
