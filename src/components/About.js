@@ -4,6 +4,18 @@ import '../styles/highlight.css';
 
 class About extends Component {
 
+  renderHeading = () => {
+    return (
+      <h2>
+        <span className='letter letter-1'>A</span>
+        <span className='letter letter-2'>b</span>
+        <span className='letter letter-3'>o</span>
+        <span className='letter letter-4'>u</span>
+        <span className='letter letter-5'>t</span>
+      </h2>
+    );
+  }
+
   renderIntro = () => {
     return (
       <p>
@@ -24,7 +36,7 @@ class About extends Component {
     );
   }
 
-  renderSkills = () => {
+  renderCurrent = () => {
     return (
       <p>
         Currently, I'm building&nbsp;
@@ -75,7 +87,7 @@ class About extends Component {
         <span className='photos highlight grow'>
           Photos
         </span>
-        &nbsp;in New York!
+        &nbsp;around New York City!
       </p>
     );
   }
@@ -83,11 +95,9 @@ class About extends Component {
   render() {
     return (
       <section className='about'>
-        <h2>
-          About
-        </h2>
+        {this.renderHeading()}
         {this.renderIntro()}
-        {this.renderSkills()}
+        {this.renderCurrent()}
         {this.renderClosing()}
       </section>
     );

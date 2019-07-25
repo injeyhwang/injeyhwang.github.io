@@ -8,7 +8,7 @@ class Footer extends Component {
   renderSummary = () => {
     return (
       <p>
-        I built this website using&nbsp;
+        I built this website from the grounds up using&nbsp;
         <span className='react highlight grow'>
           React
         </span>

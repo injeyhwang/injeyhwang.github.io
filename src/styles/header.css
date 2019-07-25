@@ -1,54 +1,54 @@
 .letter {
-  transition: color 0.15s ease-in-out;
+  transition: color 0.1s ease-in-out;
 }
 
-.letter-M:hover {
+.letter-1:hover {
   color: #006BB6;
 }
 
-.letter-I:hover {
+.letter-2:hover {
   color: #FF8F00;
 }
 
-.letter-C:hover {
+.letter-3:hover {
   color: #FFC107;
 }
 
-.letter-H:hover {
+.letter-4:hover {
   color: #833AB4;
 }
 
-.letter-A:hover {
+.letter-5:hover {
   color: #AAF0D1;
 }
 
-.letter-E:hover {
+.letter-6:hover {
   color: #EB5929;
 }
 
-.letter-L:hover {
+.letter-7:hover {
   color: #7ED8F7;
 }
 
-.letter-W:hover {
+.letter-8:hover {
   color: #EF5350;
 }
 
-.letter-N:hover {
+.letter-9:hover {
   color: #3949AB;
 }
 
-.letter-G:hover {
+.letter-10:hover {
   color: #4CAF50;
 }
 
 .big-space {
-  padding: 0px 4px;
+  padding: 0em 0.1em;
 }
 
 .profile-pic {
-  height: 150px;
-  border-radius: 75px;
+  height: 10em;
+  border-radius: 5em;
   pointer-events: none;
 }
 

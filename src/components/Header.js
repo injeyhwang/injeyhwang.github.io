@@ -9,19 +9,19 @@ class Header extends Component {
   renderName = () => {
     return (
       <h1>
-        <span className='letter letter-M'>M</span>
-        <span className='letter letter-I'>I</span>
-        <span className='letter letter-C'>C</span>
-        <span className='letter letter-H'>H</span>
-        <span className='letter letter-A'>A</span>
-        <span className='letter letter-E'>E</span>
-        <span className='letter letter-L'>L</span>
+        <span className='letter letter-1'>M</span>
+        <span className='letter letter-2'>I</span>
+        <span className='letter letter-3'>C</span>
+        <span className='letter letter-4'>H</span>
+        <span className='letter letter-5'>A</span>
+        <span className='letter letter-6'>E</span>
+        <span className='letter letter-7'>L</span>
         <span className='big-space'>&nbsp;</span>
-        <span className='letter letter-H'>H</span>
-        <span className='letter letter-W'>W</span>
-        <span className='letter letter-A'>A</span>
-        <span className='letter letter-N'>N</span>
-        <span className='letter letter-G'>G</span>
+        <span className='letter letter-4'>H</span>
+        <span className='letter letter-8'>W</span>
+        <span className='letter letter-5'>A</span>
+        <span className='letter letter-9'>N</span>
+        <span className='letter letter-10'>G</span>
       </h1>
     );
   }
@@ -43,7 +43,7 @@ class Header extends Component {
           I love to code and use software to solve problems.
         </h2>
         <h2 className='summary'>
-          This website is interactive... try hovering over items!
+          This website is interactive. Try hovering over items!
         </h2>
       </div>
     );
