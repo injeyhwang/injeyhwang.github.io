@@ -1,4 +1,4 @@
-## MICHAELIHWANG.COM
+# MICHAELIHWANG.COM
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 All in all, the website is built from the grounds up using `ReactJS`, `CSS`, and `GitHub Pages`. No added React/JavaScript frameworks.
