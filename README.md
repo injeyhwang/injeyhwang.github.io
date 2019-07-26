@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 I've always wanted to build my own website and it's been a lot of fun deploying it on GitHub Pages! As a reference, I wrote the following guide to help others (and my future self) deploy their own React Web App.
 
-I built this website from the grounds up using `React`, `CSS`, `GitHub`, and `Yarn`. The only package dependencies I used are (Font Awesome)[https://fontawesome.com/] icons.
+I built this website from the grounds up using `React`, `CSS`, `GitHub`, and `Yarn`. The only package dependencies I used are [Font Awesome](https://fontawesome.com/) icons.
 
 ## React
 ### Version
@@ -25,7 +25,7 @@ Take a look at [GitHub Pages](https://pages.github.com/) to setup your `username
 I've created and set the default branch as `dev`. This is because **Personal GitHub Pages must be sourced from the `master` branch.** For that reason, there are two branches to this repository: `master` and `dev`. I do all of my work on the `dev` branch and deploy the updates to `master` (more on that below).
 
 ### Yarn
-I prefer to use (`yarn`)[https://yarnpkg.com/lang/en/docs/install/] over `npm` as my package manager. Ultimately, they both work. I used homebrew to install yarn. On the Terminal, run:
+I prefer to use [`yarn`](https://yarnpkg.com/lang/en/docs/install/) over `npm` as my package manager. Ultimately, they both work. I used homebrew to install yarn. On the Terminal, run:
 `$ brew install yarn`
 
 ### Create React App
