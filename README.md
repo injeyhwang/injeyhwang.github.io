@@ -70,7 +70,7 @@ michaelihwang.com
 www.michaelihwang.com
 ```
 
-**7** DONE!
+**7.** DONE!
 
 ## License
 MIT License Copyright © 2019 Michael Hwang
