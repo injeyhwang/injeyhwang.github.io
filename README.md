@@ -46,7 +46,7 @@ When ready, take the following steps to deploy to GitHub Pages:
 ```
 *Note: Without the custom domain, it would otherwise be `"homepage": "https://michaelihwang.github.io"`.*
 
-**3.** Finally, add the following scripts to the `package.json`:
+**3.** In addition, add the following scripts to the `package.json`:
 
 ```
 "scripts": {
