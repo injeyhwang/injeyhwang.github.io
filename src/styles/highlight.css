@@ -75,7 +75,7 @@
   transition: transform 0.2s ease-in-out;
 }
 
-.grow:hover {
+.grow:hover, .grow:active {
   transform: scale(1.25);
   cursor: default;
 }

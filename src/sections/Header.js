@@ -43,7 +43,7 @@ class Header extends Component {
           I love to code and use software to solve problems.
         </h2>
         <h2 className='summary'>
-          This website is interactive. Try hovering over items!
+          This website is interactive. Try clicking stuff!
         </h2>
       </div>
     );

@@ -87,6 +87,10 @@ code {
     font-size: 1em;
   }
 
+  hr {
+    margin: 0.5em 0.5em;
+  }
+
   header .profile-pic {
     height: 8em;
     border-radius: 4em;
@@ -94,6 +98,10 @@ code {
 
   header .social-links {
     font-size: 1.5em;
+  }
+
+  section {
+    margin: 1em auto;
   }
 
   section h2 .letter {
@@ -106,5 +114,51 @@ code {
 
   footer .copyright {
     font-size: 0.9em;
+  }
+}
+
+/* 
+ * If the screen size is 500px wide or less, set the font-size of <h1> to 30px
+ */
+@media screen and (max-width: 350px) {
+  div .theme-switch {
+    font-size: 1.25em;
+  }
+
+  div .theme-switch-text {
+    font-size: 0.2em;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  header h2 {
+    font-size: 0.8em;
+  }
+
+  header .profile-pic {
+    height: 6em;
+    border-radius: 3em;
+  }
+
+  header .social-links {
+    font-size: 1.25em;
+  }
+
+  section {
+    margin: 0.5em auto;
+  }
+
+  section h2 .letter {
+    font-size: 0.8em;
+  }
+
+  section p {
+    font-size: 0.8em;
+  }
+
+  footer .copyright {
+    font-size: 0.8em;
   }
 }
