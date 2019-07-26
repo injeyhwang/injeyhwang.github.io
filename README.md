@@ -1,7 +1,7 @@
 ## MICHAELIHWANG.COM
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-With it, website was built from the grounds up using React, CSS, and GitHub Pages.
+With it, website was built from the grounds up using `Create React App`, `CSS`, and `GitHub Pages`.
 
 ## React
 ### Version
