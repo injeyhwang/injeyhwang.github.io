@@ -26,10 +26,10 @@ To run and test the React App, go to Terminal and run:
 
 `$ yarn start`
 
-This will open your browser and you can now see immediate changes to your React App as you code.
+This will open up the default browser and the compiled React App. Changes in the code, once saved to file, is seen immediately on the browser. This is one of the reasons why I love React and Web Development!
 
 ## Deployment
-Now that the React App is built, take the following steps to deploy to GitHub Pages:
+When ready, take the following steps to deploy to GitHub Pages:
 
 **1.** Install the `gh-pages` package via yarn. On the Terminal, run:
 
@@ -44,7 +44,7 @@ Now that the React App is built, take the following steps to deploy to GitHub Pa
 ...
 }
 ```
-Note: Without the custom domain, it would otherwise be `"homepage": "https://michaelihwang.github.io"`.
+*Note: Without the custom domain, it would otherwise be `"homepage": "https://michaelihwang.github.io"`.*
 
 **3.** Finally, add the following scripts to the `package.json`:
 
@@ -60,7 +60,7 @@ Note: Without the custom domain, it would otherwise be `"homepage": "https://mic
 
 `$ yarn deploy`
 
-Note: This will deploy the build to `master` branch of your repository, my default branch is configured to `dev`. Make sure you have a separate development branch! Otherwise you'll overwrite to master branch and you'll have to `git revert` or `git reset` to previous.
+*Note: This command will deploy the build to `master` branch of the project repository. Recall that my default branch is configured to the `dev` branch and that I do all of my development work there. Make sure that you have a separate branch from the `master` branch if building a personal GitHub Page Website. Otherwise, the command will overwrite the `master` branch's contents with the build of the React App, removing all files pre-deployment. This happened to me and had to use `git reset --hard` to recover the source files. Great learning experience!*
 
 **5.** Go to the project repository's Setting and provide your custom domain. In my case, it's michaelihwang.com
 
