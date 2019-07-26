@@ -35,7 +35,7 @@ Now that the React App is built, take the following steps to deploy to GitHub Pa
 
 `$ yarn add gh-pages`
 
-**2.** Go to the root directory of your repository and add the following line of code:
+**2.** Add the following line of code to `package.json` in the project repository:
 
 ```
 {
@@ -62,9 +62,15 @@ Note: Without the custom domain, it would otherwise be `"homepage": "https://mic
 
 Note: This will deploy the build to `master` branch of your repository, my default branch is configured to `dev`. Make sure you have a separate development branch! Otherwise you'll overwrite to master branch and you'll have to `git revert` or `git reset` to previous.
 
-**5.** Go to your repository's Setting and provide your custom domain. In my case, it's michaelihwang.com
+**5.** Go to the project repository's Setting and provide your custom domain. In my case, it's michaelihwang.com
 
-**6.** DONE!
+**6.** Finally, create a file called `CNAME` in the project's root repository. It should your custom domain as its content:
+```
+michaelihwang.com
+www.michaelihwang.com
+```
+
+**7** DONE!
 
 ## License
 MIT License Copyright © 2019 Michael Hwang
