@@ -1,11 +1,7 @@
 # MICHAELIHWANG.COM
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-For the longest time, I wanted to build and launch my personal website. So I decided to use this past weekend to make it happen.
-
-After hours of coding, googling, and several cups of coffee, it's finally up and running! It's been a ton of fun and learned a lot about React, HTML, CSS along the way.
-
-To help others do the same, I wrote the following guide so that it may help deploy their own React-based Web App or Website.
+For the longest time, I wanted to build and launch my personal website. So I decided to use this past weekend to make it happen. After hours of coding, googling, and several cups of coffee, it's finally up and running! It's been a ton of fun and learned a lot about React, HTML, CSS along the way. To help others do the same, I wrote the following guide so that it may help deploy their own React-based Web App or Website.
 
 *Note: I built this website from the grounds up using `React`, `CSS`, `GitHub`, and `Yarn`. The only package dependencies I used are [Font Awesome](https://fontawesome.com/) icons.*
 
@@ -89,7 +85,7 @@ When you're ready, take the following steps to deploy to GitHub Pages:
 
 *Note: Notice the script: `"deploy": "gh-pages -b master -d build`. This is pushing the build to the `master` branch. More on that below.*
 
-**4.** Deploy the website by running `yarn deploy` on the Terminal:
+**4.** Deploy the website by running the following command on the Terminal:
 
 `$ yarn deploy`
 
