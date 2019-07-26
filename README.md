@@ -14,7 +14,11 @@ All in all, the website is built from the grounds up using `ReactJS`, `CSS`, and
 * [@fontawesome/free-solid-svg-icons](https://github.com/FortAwesome/react-fontawesome): 5.9.0
 
 ## Preliminaries
-I've created and set the default branch as `dev`. This is because Personal GitHub Pages must be sourced from the `master` branch. For that reason, there are two branches to this repository: `master` and `dev`. I do all of my work on the `dev` branch and deploy the updates to `master` (more on that below).
+### GitHub Pages
+Take a look at [GitHub Pages](https://pages.github.com/) to setup your `username.github.io` repository.
+
+### GitHub Branches
+I've created and set the default branch as `dev`. This is because **Personal GitHub Pages must be sourced from the `master` branch.** For that reason, there are two branches to this repository: `master` and `dev`. I do all of my work on the `dev` branch and deploy the updates to `master` (more on that below).
 
 ## Installation
 I prefer to use yarn over npm. On the Terminal, run `yarn` to install all dependencies:
@@ -60,7 +64,7 @@ When ready, take the following steps to deploy to GitHub Pages:
 
 `$ yarn deploy`
 
-*Note: This command will deploy the build to `master` branch of the project repository. Recall that my default branch is configured to the `dev` branch and that I do all of my development work there. Make sure that you have a separate branch from the `master` branch if building a personal GitHub Page Website. Otherwise, the command will overwrite the `master` branch's contents with the build of the React App, removing all files pre-deployment. This happened to me and had to use `git reset --hard` to recover the source files. Great learning experience!*
+*Note: This command will deploy the build to `master` branch of the project repository. Recall that my default branch is configured to the `dev` branch and that I do all of my development work there. **Make sure that you have a separate branch for your source files if building a personal GitHub Page Website.** Otherwise, the command will overwrite the `master` branch's contents with the build of the React App, removing all files pre-deployment. This happened to me and had to use `git reset --hard` to recover the source files. Great learning experience!*
 
 **5.** Go to the project repository's Setting and provide your custom domain. In my case, it's michaelihwang.com
 
@@ -70,7 +74,7 @@ michaelihwang.com
 www.michaelihwang.com
 ```
 
-**7.** DONE!
+**7.** DONE! Try going to [michaelihwang.com](michaelihwang.com)!
 
 ## License
 MIT License Copyright © 2019 Michael Hwang
