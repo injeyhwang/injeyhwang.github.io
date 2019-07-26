@@ -1,7 +1,7 @@
 # MICHAELIHWANG.COM
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-I've always wanted to build my own website and it's been a lot of fun deploying it on GitHub Pages! As a reference, I wrote the following guide to help others (and my future self) deploy their own React Web App.
+I've always wanted to build my own website and, after hours of coding, googling, and several cups of coffee, I deployed it on GitHub Pages! It's been a ton of fun and, as a reference, wrote the following guide to help others (and my future self) deploy their own React Web App.
 
 I built this website from the grounds up using `React`, `CSS`, `GitHub`, and `Yarn`. The only package dependencies I used are [Font Awesome](https://fontawesome.com/) icons.
 
@@ -50,22 +50,19 @@ This will open up the default browser and the compiled React App. Changes in the
 When you're ready, take the following steps to deploy to GitHub Pages:
 
 **1.** Install the `gh-pages` package via yarn. On the Terminal, run:
-
 `$ yarn add gh-pages`
 
-**2.** Add the following line of code to `package.json` in the project repository:
-
+**2.** If you have a custom domain, add the following line of code to `package.json` in the project repository:
 ```
 {
 ...
-"homepage": "https://michaelihwang.com"
+"homepage": "https://mydomain.com"
 ...
 }
 ```
-*Note: Without the custom domain, it would otherwise be `"homepage": "https://michaelihwang.github.io"`.*
+*Note: Without the custom domain, add `"homepage": "https://username.github.io"` instead.*
 
 **3.** In addition, add the following scripts to the `package.json`:
-
 ```
 "scripts": {
   "predeploy": "yarn run build",
@@ -73,22 +70,28 @@ When you're ready, take the following steps to deploy to GitHub Pages:
   ...
 },
 ```
+*Note: Notice the script: `"deploy": "gh-pages -b master -d build`. This is pushing the build to the `master` branch. More on that below.*
 
 **4.** Deploy the website by running `yarn deploy` on the Terminal:
-
 `$ yarn deploy`
 
 *Note: This command will deploy the build to `master` branch of the project repository. Recall that my default branch is configured to the `dev` branch and that I do all of my development work there. **Make sure that you have a separate branch for your source files if building a personal GitHub Page Website.** Otherwise, the command will overwrite the `master` branch's contents with the build of the React App, removing all files pre-deployment. This happened to me and had to use `git reset --hard` to recover the source files. Great learning experience!*
 
-**5.** Go to the project repository's Setting and provide your custom domain. In my case, it's michaelihwang.com
+**5.** Go to the project repository's Setting and provide your custom domain: `mydomain.com`.
+In my case, it's `michaelihwang.com`.
 
 **6.** Finally, create a file called `CNAME` in the project's root repository. It should your custom domain as its content:
 ```
-michaelihwang.com
-www.michaelihwang.com
+mydomain.com
+www.mydomain.com
 ```
 
 **7.** DONE! Try going to [michaelihwang.com](michaelihwang.com)!
+
+## Closing Words
+I hope that this guide was helpful in getting you started with your own React website and deploying it on GitHub Pages. I intend to improve and add content to my website as I get better at Web Development.
+
+Thanks for reading!
 
 ## License
 MIT License Copyright © 2019 Michael Hwang
