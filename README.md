@@ -91,7 +91,9 @@ When you're ready, take the following steps to deploy to GitHub Pages:
 
 *Note: This command will deploy the build to `master` branch of the project repository. Recall that my default branch is configured to the `dev` branch and that I do all of my development work there. **Make sure that you have a separate branch for your source files if building a personal GitHub Page Website.** Otherwise, the command will overwrite the `master` branch's contents with the build of the React App, removing all files pre-deployment. This happened to me and had to use `git reset --hard` to recover the source files. Great learning experience!*
 
-**5.** Go to the project repository's `Setting` Tab and scroll down to `GitHub Pages` section. Under `Custom domain` input box, provide your custom domain: `mydomain.com`. In my case, it's `michaelihwang.com`.
+**5.** Go to the project's `Setting` Tab and scroll down to `GitHub Pages` section. Under `Custom domain` input box, provide your custom domain: `mydomain.com`. In my case, it's `michaelihwang.com`.
+
+*Note: Every time you deploy, you have to go back to the Setting Tab and provide your custom domain*
 
 **6.** Finally, create a file called `CNAME` in the project's root repository. It should your custom domain as its content:
 
