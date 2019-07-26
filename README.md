@@ -1,9 +1,9 @@
 # MICHAELIHWANG.COM
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-I've always wanted to build my own website and, after hours of coding, googling, and several cups of coffee, I deployed it on GitHub Pages! It's been a ton of fun and, as a reference, wrote the following guide to help others (and my future self) deploy their own React Web App.
+For the longest time, I wanted to build and launch my personal website. So I decided to use this past weekend to make it happen. After hours of coding, googling, and several cups of coffee, it's finally up and running! It's been a ton of fun and learned a lot about React, HTML, CSS along the way. To help others do the same, I wrote the following guide so that it may help deploy their own React-based Web App or Website.
 
-I built this website from the grounds up using `React`, `CSS`, `GitHub`, and `Yarn`. The only package dependencies I used are [Font Awesome](https://fontawesome.com/) icons.
+Note that I built this website from the grounds up using `React`, `CSS`, `GitHub`, and `Yarn`. The only package dependencies I used are [Font Awesome](https://fontawesome.com/) icons. 
 
 ## React
 ### Version
