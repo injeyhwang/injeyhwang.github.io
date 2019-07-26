@@ -1,4 +1,4 @@
-## MICHAELIHWANG.COM
+# MICHAELIHWANG.COM
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 All in all, the website is built from the grounds up using `ReactJS`, `CSS`, and `GitHub Pages`. No added React/JavaScript frameworks.
@@ -14,7 +14,7 @@ All in all, the website is built from the grounds up using `ReactJS`, `CSS`, and
 * [@fontawesome/free-solid-svg-icons](https://github.com/FortAwesome/react-fontawesome): 5.9.0
 
 ## Preliminaries
-I've created and set the default branch as `dev`. This is because Personal GitHub Pages must be sourced from the `master` branch. This is the underlying reason why there are two branches to this repository: `master` and `dev`. I do all of my work on the `dev` branch and deploy the updates to `master` (more on that below).
+I've created and set the default branch as `dev`. This is because Personal GitHub Pages must be sourced from the `master` branch. For that reason, there are two branches to this repository: `master` and `dev`. I do all of my work on the `dev` branch and deploy the updates to `master` (more on that below).
 
 ## Installation
 I prefer to use yarn over npm. On the Terminal, run `yarn` to install all dependencies:
