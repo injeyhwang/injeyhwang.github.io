@@ -28,10 +28,18 @@ class About extends Component {
           Columbia University
         </span>
         &nbsp;looking for full-time&nbsp;
-        <span className='job highlight grow'>
+        <span className='career highlight grow'>
           Software Engineering
         </span>
-        &nbsp;opportunities.
+        &nbsp;opportunities. Specifically, I'd love to work as a&nbsp;
+        <span className='full-stack-dev highlight grow'>
+          Full-Stack Developer
+        </span>
+        &nbsp;or&nbsp;
+        <span className='mobile-dev highlight grow'>
+          Mobile Developer
+        </span>
+        .
       </p>
     );
   }
@@ -40,19 +48,31 @@ class About extends Component {
     return (
       <p>
         Currently, I'm building&nbsp;
-        <a className='react highlight grow' href='https://reactjs.org/'>
+        <a
+          className='react highlight grow'
+          href='https://reactjs.org/'
+        >
           React
         </a>
         &nbsp;and&nbsp;
-        <a className='react highlight grow' href='https://facebook.github.io/react-native/'>
+        <a 
+          className='react highlight grow'
+          href='https://facebook.github.io/react-native/'
+        >
           React Native
         </a>
         &nbsp;applications with&nbsp;
-        <a className='redux highlight grow' href='https://redux.js.org/'>
+        <a
+          className='redux highlight grow'
+          href='https://redux.js.org/'
+        >
           Redux
         </a>
         &nbsp;and&nbsp;
-        <a className='node highlight grow' href='https://nodejs.org/'>
+        <a
+          className='node highlight grow'
+          href='https://nodejs.org/'
+        >
           Node
         </a>
         , and it's been a ton of&nbsp;
@@ -67,7 +87,8 @@ class About extends Component {
   renderProject = () => {
     return (
       <p>
-        And in case you were wondering, I built this website from the grounds up using&nbsp;
+        And in case you were wondering,
+        I built this website from the grounds up using&nbsp;
         <span className='react highlight grow'>
           React
         </span>
@@ -80,7 +101,10 @@ class About extends Component {
           GitHub Pages
         </span>
         . You can check out my other projects by going to my&nbsp;
-        <a className='github highlight grow' href='https://github.com/michaelihwang'>
+        <a
+          className='github highlight grow'
+          href='https://github.com/michaelihwang'
+        >
           GitHub
         </a>
         .

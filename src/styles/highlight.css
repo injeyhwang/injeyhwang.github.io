@@ -2,7 +2,7 @@
   display: inline-block;
   border-radius: 3px;
   margin: 0.15em 0em;
-  padding: 0.2em 0.4em;
+  padding: 0.2em 0.2em;
   text-decoration: none;
 }
 
@@ -16,8 +16,18 @@
   color:#000000;
 }
 
-.job {
+.career {
   background-color: #EF5350;
+  color:#FFFFFF;
+}
+
+.full-stack-dev {
+  background-color: #FECB2E;
+  color:#000000;
+}
+
+.mobile-dev {
+  background-color: #147EFB;
   color:#FFFFFF;
 }
 
@@ -52,7 +62,7 @@
 }
 
 .coding {
-  background-color: #FFC107;
+  background-color: #FECB2E;
   color:#000000;
 }
 
