@@ -37,7 +37,7 @@ class About extends Component {
         </span>
         &nbsp;or&nbsp;
         <span className='mobile-dev highlight grow'>
-          Mobile Developer
+          React Native Developer
         </span>
         .
       </p>
@@ -75,7 +75,7 @@ class About extends Component {
         >
           Node
         </a>
-        , and it's been a ton of&nbsp;
+        . It's been a ton of&nbsp;
         <span className='fun highlight grow'>
           Fun
         </span>

@@ -40,10 +40,10 @@ class Header extends Component {
     return (
       <div>
         <h2 className='summary'>
-          I love to code and use software to solve problems.
+          I love to build and solve problems with code.
         </h2>
         <h2 className='summary'>
-          This website is interactive. Try clicking stuff!
+          Especially using JavaScript and Python.
         </h2>
       </div>
     );

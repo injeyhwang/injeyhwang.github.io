@@ -23,7 +23,7 @@
   color: #4078C0;
 }
 
-.bounce:hover, .bounce:active {
+.bounce:hover {
   animation: icon-bounce 0.8s 1 ease-in-out;
 }
 
