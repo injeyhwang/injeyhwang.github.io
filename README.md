@@ -27,7 +27,7 @@ I've created and set the default branch as `dev`. This is because **Personal Git
 I do all of my work on the `dev` branch and deploy the updates to `master` (more on that below).
 
 ### Yarn
-I prefer to use [`yarn`](https://yarnpkg.com/lang/en/docs/install/) over `npm` as my package manager. Ultimately, they both work. I used homebrew to install yarn. On the Terminal, run:
+I prefer to use `yarn` over `npm` as my package manager. I used homebrew to install `yarn`. On the Terminal, run:
 
 `$ brew install yarn`
 
