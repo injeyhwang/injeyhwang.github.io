@@ -39,11 +39,11 @@ I prefer to use `yarn` over `npm` as my package manager. I used homebrew to inst
 ## Dependency Installation
 With `yarn` (or `npm`), you have access to thousands of packages that others have built (Create React App is one of them).
 
-You can add them to your package via Termianl with the command `$ yarn add package`. This will not only download the package and add them to the `node_modules` folder, but update the `"dependencies"` list in `package.json`.
+You can add them to your projects with the command `$ yarn add package`. This will not only download the package and add them to the `node_modules` folder, but update the `"dependencies"` list in `package.json`.
 
 Conversely, you may remove them by running `$ yarn remove package`. Accordingly, this will remove the package from your `"dependencies"` list in `package.json`.
 
-If you forked this repository or need to install all dependencies, simply run:
+If you cloned/forked this repository or need to install all dependencies, simply run:
 
 `$ yarn`
 
