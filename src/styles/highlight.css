@@ -22,12 +22,17 @@
 }
 
 .full-stack-dev {
-  background-color: #FECB2E;
+  background-color: #1652F0;
+  color:#FFFFFF;
+}
+
+.front-end-dev {
+  background-color: #FFDC80;
   color:#000000;
 }
 
-.mobile-dev {
-  background-color: #FECB2E;
+.react-native-dev {
+  background-color: #AAF0D1;
   color:#000000;
 }
 
@@ -77,7 +82,7 @@
 }
 
 .photos {
-  background-color: #AAF0D1;
+  background-color: #FECB2E;
   color:#000000;
 }
 

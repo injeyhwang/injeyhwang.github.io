@@ -15,9 +15,9 @@ class App extends Component {
   };
 
   toggleTheme = () => {
-    this.setState({
-      darkMode: !this.state.darkMode
-    });
+    this.setState(prevState => ({
+      darkMode: !prevState.darkMode
+    }));
   }
 
   render() {

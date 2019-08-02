@@ -35,8 +35,12 @@ class About extends Component {
         <span className='full-stack-dev highlight grow'>
           Full-Stack Developer
         </span>
+        &nbsp;
+        <span className='front-end-dev highlight grow'>
+          Front-End Developer
+        </span>
         &nbsp;or&nbsp;
-        <span className='mobile-dev highlight grow'>
+        <span className='react-native-dev highlight grow'>
           React Native Developer
         </span>
         .
