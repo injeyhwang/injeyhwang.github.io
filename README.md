@@ -110,4 +110,4 @@ I hope that this guide was helpful in getting you started with your own React we
 Thanks for reading!
 
 ## License
-MIT License Copyright © 2019 Michael Hwang
+MIT License Copyright © 2020 Michael Hwang
