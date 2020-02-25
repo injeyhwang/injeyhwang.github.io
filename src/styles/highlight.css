@@ -13,7 +13,7 @@
 
 .school {
   background-color: #ACCCE6;
-  color:#000000;
+  color:#282C33;
 }
 
 .career {
@@ -21,19 +21,24 @@
   color:#FFFFFF;
 }
 
-.full-stack-dev {
+.full-stack-engineer {
   background-color: #1652F0;
   color:#FFFFFF;
 }
 
-.front-end-dev {
+.frontend-engineer {
   background-color: #FFDC80;
-  color:#000000;
+  color:#282C33;
 }
 
-.react-native-dev {
-  background-color: #AAF0D1;
-  color:#000000;
+.apple {
+  background-color: #F3F3F3;
+  color: #000000;
+}
+
+.swift {
+  background-color: #E05C44;
+  color:#FFFFFF;
 }
 
 .react {
@@ -41,23 +46,8 @@
   color:#282C33;
 }
 
-.redux {
-  background-color: #6F4FB6;
-  color:#FFFFFF;
-}
-
-.node {
-  background-color: #2D6B1B;
-  color:#FFFFFF;
-}
-
 .css {
   background-color: #3468E8;
-  color:#FFFFFF;
-}
-
-.fun {
-  background-color: #4CAF50;
   color:#FFFFFF;
 }
 
@@ -72,8 +62,8 @@
 }
 
 .powerlifting {
-  background-color: #CBCDCD;
-  color:#000000;
+  background-color: #6ED799;
+  color:#FFFFFF;
 }
 
 .running {

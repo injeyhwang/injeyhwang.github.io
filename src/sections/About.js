@@ -4,141 +4,119 @@ import '../styles/highlight.css';
 
 class About extends Component {
 
-  renderHeading = () => {
-    return (
-      <h2>
-        <span className='letter letter-1'>A</span>
-        <span className='letter letter-2'>b</span>
-        <span className='letter letter-3'>o</span>
-        <span className='letter letter-4'>u</span>
-        <span className='letter letter-5'>t</span>
-      </h2>
-    );
-  }
+  renderHeading = () => (
+    <h2>
+      <span className='letter letter-1'>A</span>
+      <span className='letter letter-2'>b</span>
+      <span className='letter letter-3'>o</span>
+      <span className='letter letter-4'>u</span>
+      <span className='letter letter-5'>t</span>
+    </h2>
+  );
 
-  renderIntro = () => {
-    return (
-      <p>
-        I'm a new&nbsp;
-        <span className='major highlight grow'>
-          Computer Science
-        </span>
-        &nbsp;graduate from&nbsp;
-        <span className='school highlight grow'>
-          Columbia University
-        </span>
-        &nbsp;looking for full-time&nbsp;
-        <span className='career highlight grow'>
-          Software Engineering
-        </span>
-        &nbsp;opportunities. Specifically, I'd love to work as a&nbsp;
-        <span className='full-stack-dev highlight grow'>
-          Full-Stack Developer
-        </span>
-        &nbsp;
-        <span className='front-end-dev highlight grow'>
-          Front-End Developer
-        </span>
-        &nbsp;or&nbsp;
-        <span className='react-native-dev highlight grow'>
-          React Native Developer
-        </span>
-        .
-      </p>
-    );
-  }
+  renderIntro = () => (
+    <p>
+      I'm a new&nbsp;
+      <span className='major highlight grow'>
+        Computer Science
+      </span>
+      &nbsp;graduate from&nbsp;
+      <span className='school highlight grow'>
+        Columbia University
+      </span>
+      &nbsp;looking for full-time&nbsp;
+      <span className='career highlight grow'>
+        Software Engineering
+      </span>
+      &nbsp;opportunities. Specifically, I'd love to work as an&nbsp;
+      <span className='apple highlight grow'>
+        iOS Engineer
+      </span>
+      ,&nbsp;
+      <span className='full-stack-engineer highlight grow'>
+        Full-Stack Engineer
+      </span>
+      ,&nbsp;or&nbsp;
+      <span className='frontend-engineer highlight grow'>
+        Frontend Engineer
+      </span>
+      .
+    </p>
+  );
 
-  renderCurrent = () => {
-    return (
-      <p>
-        Currently, I'm building&nbsp;
-        <a
-          className='react highlight grow'
-          href='https://reactjs.org/'
-        >
-          React
-        </a>
-        &nbsp;and&nbsp;
-        <a 
-          className='react highlight grow'
-          href='https://facebook.github.io/react-native/'
-        >
-          React Native
-        </a>
-        &nbsp;applications with&nbsp;
-        <a
-          className='redux highlight grow'
-          href='https://redux.js.org/'
-        >
-          Redux
-        </a>
-        &nbsp;and&nbsp;
-        <a
-          className='node highlight grow'
-          href='https://nodejs.org/'
-        >
-          Node
-        </a>
-        . It's been a ton of&nbsp;
-        <span className='fun highlight grow'>
-          Fun
-        </span>
-        !
-      </p>
-    );
-  }
+  renderCurrent = () => (
+    <p>
+      Currently, I'm using&nbsp;
+      <a
+        className='swift highlight grow'
+        href='https://swift.org/'
+      >
+        Swift
+      </a>
+      &nbsp; to build&nbsp;
+      <a
+        className='apple highlight grow'
+        href='https://www.apple.com/ios/'
+      >
+        iOS
+      </a>
+      &nbsp;apps. Coming from a &nbsp;
+      <a
+        className='react highlight grow'
+        href='https://facebook.github.io/react-native/'
+      >
+        React Native
+      </a>
+      &nbsp;background, It's been a ton of fun learning native development!
+    </p>
+  );
 
-  renderProject = () => {
-    return (
-      <p>
-        And in case you were wondering,
-        I built this website from the grounds up using&nbsp;
-        <span className='react highlight grow'>
-          React
-        </span>
-        ,&nbsp;
-        <span className='css highlight grow'>
-          CSS
-        </span>
-        , and&nbsp;
-        <span className='github highlight grow'>
-          GitHub Pages
-        </span>
-        . You can check out my other projects by going to my&nbsp;
-        <a
-          className='github highlight grow'
-          href='https://github.com/michaelihwang'
-        >
-          GitHub
-        </a>
-        .
-      </p>
-    );
-  }
+  renderProject = () => (
+    <p>
+      And in case you were wondering, I built this website using&nbsp;
+      <span className='react highlight grow'>
+        React
+      </span>
+      ,&nbsp;
+      <span className='css highlight grow'>
+        CSS
+      </span>
+      , and&nbsp;
+      <span className='github highlight grow'>
+        GitHub Pages
+      </span>
+      . You can check out my other projects by going to my&nbsp;
+      <a
+        className='github highlight grow'
+        href='https://github.com/michaelihwang'
+      >
+        GitHub
+      </a>
+      .
+    </p>
+  );
 
-  renderClosing = () => {
-    return (
-      <p>
-        When I'm not&nbsp;
-        <span className='coding highlight grow'>
-          Coding
-        </span>
-        , you can find me&nbsp;
-        <span className='powerlifting highlight grow'>
-          Powerlifting
-        </span>
-        &nbsp;at the gym,&nbsp;
-        <span className='running highlight grow'>
-          Running
-        </span>
-        &nbsp;by the Hudson, or taking&nbsp;
-        <span className='photos highlight grow'>
-          Photos
-        </span>
-        &nbsp;around New York City!
-      </p>
-    );
-  }
+  renderClosing = () => (
+    <p>
+      When I'm not&nbsp;
+      <span className='coding highlight grow'>
+        Coding
+      </span>
+      , you can find me&nbsp;
+      <span className='powerlifting highlight grow'>
+        Powerlifting
+      </span>
+      &nbsp;at the gym,&nbsp;
+      <span className='running highlight grow'>
+        Running
+      </span>
+      &nbsp;through the city, or taking cityscape&nbsp;
+      <span className='photos highlight grow'>
+        Photos
+      </span>
+      &nbsp;around the world!
+    </p>
+  );
 
   render() {
     return (
