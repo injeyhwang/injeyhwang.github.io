@@ -3,92 +3,66 @@ import React, { Component } from 'react';
 import '../styles/highlight.css';
 
 class About extends Component {
-
   renderHeading = () => (
     <h2>
-      <span className='letter letter-1'>A</span>
-      <span className='letter letter-2'>b</span>
-      <span className='letter letter-3'>o</span>
-      <span className='letter letter-4'>u</span>
-      <span className='letter letter-5'>t</span>
+      <span className="letter letter-1">A</span>
+      <span className="letter letter-2">b</span>
+      <span className="letter letter-3">o</span>
+      <span className="letter letter-4">u</span>
+      <span className="letter letter-5">t</span>
     </h2>
   );
 
   renderIntro = () => (
     <p>
       I'm a new&nbsp;
-      <span className='major highlight grow'>
-        Computer Science
-      </span>
+      <span className="major highlight grow">Computer Science</span>
       &nbsp;graduate from&nbsp;
-      <span className='school highlight grow'>
-        Columbia University
-      </span>
+      <span className="school highlight grow">Columbia University</span>
       &nbsp;looking for full-time&nbsp;
-      <span className='career highlight grow'>
-        Software Engineering
-      </span>
-      &nbsp;opportunities. Specifically, I'd love to work as an&nbsp;
-      <span className='apple highlight grow'>
-        iOS Engineer
-      </span>
-      ,&nbsp;
-      <span className='full-stack-engineer highlight grow'>
+      <span className="career highlight grow">Software Engineering</span>
+      &nbsp;opportunities. Specifically, I'd love to work as a&nbsp;
+      <span className="full-stack-engineer highlight grow">
         Full-Stack Engineer
       </span>
-      ,&nbsp;or&nbsp;
-      <span className='frontend-engineer highlight grow'>
-        Frontend Engineer
-      </span>
-      .
+      &nbsp;or&nbsp;
+      <span className="frontend-engineer highlight grow">Mobile Engineer</span>.
     </p>
   );
 
-  renderCurrent = () => (
+  renderLookingFor = () => (
     <p>
-      Currently, I'm using&nbsp;
-      <a
-        className='swift highlight grow'
-        href='https://swift.org/'
-      >
-        Swift
+      I enjoy developing in&nbsp;
+      <a className="react highlight grow" href="https://reactjs.org/">
+        React
       </a>
-      &nbsp; to build&nbsp;
-      <a
-        className='apple highlight grow'
-        href='https://www.apple.com/ios/'
-      >
-        iOS
+      &nbsp;and would love to work with&nbsp;
+      <a className="graphql highlight grow" href="https://graphql.org/">
+        GraphQL
       </a>
-      &nbsp;apps. Coming from a &nbsp;
+      &nbsp;and&nbsp;
       <a
-        className='react highlight grow'
-        href='https://facebook.github.io/react-native/'
+        className="python highlight grow"
+        href="https://facebook.github.io/react-native/"
       >
-        React Native
+        Python
       </a>
-      &nbsp;background, It's been a ton of fun learning native development!
+      &nbsp;. That said, I'm also flexible; I'm eager to learn new technologies 
+      and take on challenges outside my domain.
     </p>
   );
 
   renderProject = () => (
     <p>
       And in case you were wondering, I built this website using&nbsp;
-      <span className='react highlight grow'>
-        React
-      </span>
+      <span className="react highlight grow">React</span>
       ,&nbsp;
-      <span className='css highlight grow'>
-        CSS
-      </span>
-      , and&nbsp;
-      <span className='github highlight grow'>
-        GitHub Pages
-      </span>
-      . You can check out my other projects by going to my&nbsp;
+      <span className="css highlight grow">CSS</span>, and&nbsp;
+      <span className="github highlight grow">GitHub Pages</span>. You can check
+      out my other projects by going to my&nbsp;
       <a
-        className='github highlight grow'
-        href='https://github.com/michaelihwang'
+        className="github highlight grow"
+        href="https://github.com/michaelihwang"
       >
         GitHub
       </a>
@@ -99,31 +73,23 @@ class About extends Component {
   renderClosing = () => (
     <p>
       When I'm not&nbsp;
-      <span className='coding highlight grow'>
-        Coding
-      </span>
-      , you can find me&nbsp;
-      <span className='powerlifting highlight grow'>
-        Powerlifting
-      </span>
+      <span className="coding highlight grow">Coding</span>, you can find
+      me&nbsp;
+      <span className="powerlifting highlight grow">Powerlifting</span>
       &nbsp;at the gym,&nbsp;
-      <span className='running highlight grow'>
-        Running
-      </span>
+      <span className="running highlight grow">Running</span>
       &nbsp;through the city, or taking cityscape&nbsp;
-      <span className='photos highlight grow'>
-        Photos
-      </span>
+      <span className="photos highlight grow">Photos</span>
       &nbsp;around the world!
     </p>
   );
 
   render() {
     return (
-      <section className='about'>
+      <section className="about">
         {this.renderHeading()}
         {this.renderIntro()}
-        {this.renderCurrent()}
+        {this.renderLookingFor()}
         {this.renderProject()}
         {this.renderClosing()}
       </section>

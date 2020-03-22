@@ -38,7 +38,7 @@ class Header extends Component {
         I love to build and solve problems with code.
       </h2>
       <h2 className='summary'>
-        Especially using Python, Swift, and JavaScript
+        Especially using Python and JavaScript!
       </h2>
     </div>
   );

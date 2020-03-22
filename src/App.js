@@ -11,21 +11,23 @@ import './styles/App.css';
 
 class App extends Component {
   state = {
-    darkMode: false
+    darkMode: localStorage.getItem("darkMode") === 'true'
   };
 
   toggleTheme = () => {
-    this.setState(prevState => ({
-      darkMode: !prevState.darkMode
-    }));
-  }
+    this.setState(
+      prevState => ({ darkMode: !prevState.darkMode }),
+      () => {
+        localStorage.setItem("darkMode", this.state.darkMode);
+      }
+    );
+  };
 
   render() {
-    const themeMode = (this.state.darkMode) ? theme.dark : theme.light;
-    
+    const { darkMode } = this.state;
     return (
-      <div style={themeMode}>
-        <div className='container'>
+      <div style={darkMode ? theme.dark : theme.light}>
+        <div className="container">
           <ThemeSwitch toggleTheme={this.toggleTheme} />
           <Header />
           <About />

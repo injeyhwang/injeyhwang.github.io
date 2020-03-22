@@ -36,9 +36,9 @@
   color: #000000;
 }
 
-.swift {
-  background-color: #E05C44;
-  color:#FFFFFF;
+.python {
+  background-color: #4576A7;
+  color: #FFFFFF;
 }
 
 .react {
@@ -53,6 +53,11 @@
 
 .github {
   background-color: #222222;
+  color:#FFFFFF;
+}
+
+.graphql {
+  background-color: #CF3095;
   color:#FFFFFF;
 }
 

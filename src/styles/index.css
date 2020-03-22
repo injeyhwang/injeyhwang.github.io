@@ -31,7 +31,7 @@ header h2 {
 hr {
   margin: 1em 1em;
   border-width: 0;
-  border-top: 2px solid #282C33;
+  border-top: 2px solid;
   width: auto;
 }
 

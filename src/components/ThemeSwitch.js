@@ -8,8 +8,9 @@ import '../styles/switch.css';
 class ThemeSwitch extends Component {
 
   render() {
+    const { toggleTheme } = this.props;
     return (
-      <div className='theme-switch bounce-diagonal' onClick={this.props.toggleTheme}>
+      <div className='theme-switch bounce-diagonal' onClick={toggleTheme}>
         <FontAwesomeIcon icon={faLightbulb} />
         <div className='theme-switch-text'>Lights</div>
       </div>
