@@ -41,13 +41,10 @@ class About extends Component {
         GraphQL
       </a>
       &nbsp;and&nbsp;
-      <a
-        className="python highlight grow"
-        href="https://facebook.github.io/react-native/"
-      >
+      <a className="python highlight grow" href="https://www.python.org/">
         Python
       </a>
-      &nbsp;. That said, I'm also flexible; I'm eager to learn new technologies 
+      &nbsp;. That said, I'm also flexible; I'm eager to learn new technologies
       and take on challenges outside my domain.
     </p>
   );
