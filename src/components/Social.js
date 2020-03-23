@@ -11,8 +11,7 @@ import {
 import '../styles/social.css';
 
 class Social extends Component {
-
-  render () {
+  render() {
     return (
       <div>
         <a

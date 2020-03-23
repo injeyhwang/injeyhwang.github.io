@@ -6,7 +6,6 @@ import { faLightbulb } from '@fortawesome/free-solid-svg-icons';
 import '../styles/switch.css';
 
 class ThemeSwitch extends Component {
-
   render() {
     const { toggleTheme } = this.props;
     return (

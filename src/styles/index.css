@@ -58,6 +58,10 @@ section p {
   margin: 0.5em 2em;
 }
 
+section ul {
+  margin: 0.5em 1em;
+}
+
 footer {
   text-align: center;
 }

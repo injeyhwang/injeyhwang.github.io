@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 
 import Social from '../components/Social';
 
+import photo from '../assets/profilephoto.jpeg'
+
 import '../styles/header.css';
 
 class Header extends Component {
-
   renderName = () => (
     <h1>
       <span className='letter letter-1'>M</span>
@@ -25,21 +26,13 @@ class Header extends Component {
   );
 
   renderProfilePicture = () => (
-    <img
-      className='profile-pic'
-      src='https://avatars2.githubusercontent.com/u/6456602?s=460&v=4'
-      alt='pic'
-    />
+    <img className='profile-pic' src={photo} alt='pic' />
   );
 
   renderSummary = () => (
     <div>
-      <h2 className='summary'>
-        I love to build and solve problems with code.
-      </h2>
-      <h2 className='summary'>
-        Especially using Python and JavaScript!
-      </h2>
+      <h2 className='summary'>I love to build and solve problems with code.</h2>
+      <h2 className='summary'>Especially using Python and JavaScript!</h2>
     </div>
   );
 
