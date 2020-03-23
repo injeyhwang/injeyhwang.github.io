@@ -10,11 +10,11 @@ class SectionBlock extends Component {
     subTitle,
     rightJustified = null
   ) => (
-    <p className='title pulsate'>
+    <p className='title title-hover'>
       <span className='leftAlign'>
         <b>
           {mainTitleLink ? (
-            <a className='title pulsate' href={mainTitleLink}>
+            <a className='title link' href={mainTitleLink}>
               {mainTitle}
             </a>
           ) : (

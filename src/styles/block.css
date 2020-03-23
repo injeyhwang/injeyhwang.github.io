@@ -8,22 +8,13 @@
 
 .title {
   color: inherit;
-  text-decoration: none;
   transition: color 0.25s ease-out;
 }
 
-.pulsate {
-  animation: pulse 15s infinite;
+.link {
+  text-decoration: none;
 }
 
-@keyframes pulse {
-  0% {
-    color: inherit;
-  }
-  50% {
-    color: #FF4E4E;
-  }
-  100% {
-    color: inherit;
-  }
+.title-hover:hover {
+  color: #FF4E4E;
 }
