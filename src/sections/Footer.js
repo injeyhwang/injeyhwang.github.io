@@ -1,23 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import '../styles/footer.css';
 
-class Footer extends Component {
-
-  renderCopyright = () => (
-    <p className='copyright'>
-      © Copyright 2020 Michael Hwang
-    </p>
-  );
-
-  render() {
-    return (
-      <footer>
-        <hr />
-        {this.renderCopyright()}
-      </footer>
-    );
+export default function Footer() {
+  function renderCopyright() {
+    return <p className='copyright'>© Copyright 2020 Michael Hwang</p>;
   }
-}
 
-export default Footer;
+  return (
+    <footer>
+      <hr />
+      {renderCopyright()}
+    </footer>
+  );
+}

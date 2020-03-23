@@ -1,40 +1,43 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import '../styles/highlight.css';
 
-class SectionHeading extends Component {
-  renderLetters = headingString => (
-    <>
-      {headingString.split('').map((char, index) => (
-        <>
-          {char === ' ' ? (
-            <span className='big-space'>&nbsp;</span>
-          ) : (
-            <>
-              {index > 9 ? (
-                <span className={`letter letter-${index - 10}`}>{char}</span>
-              ) : (
-                <span className={`letter letter-${index}`}>{char}</span>
-              )}
-            </>
-          )}
-        </>
-      ))}
-    </>
-  );
+const TOTAL_NUM_OF_COLORS = 10;   // 10 different letter colors in .css file
 
-  render() {
-    const { headingTag, headingString } = this.props;
+export default function SectionHeading({ headingTag, headingString }) {
+  function renderLetters(headingString) {
     return (
-      <div>
-        {headingTag === 'h1' ? (
-          <h1>{this.renderLetters(headingString)}</h1>
-        ) : (
-          <h2>{this.renderLetters(headingString)}</h2>
-        )}
-      </div>
+      <>
+        {headingString.split('').map((char, index) => (
+          <>
+            {char === ' ' ? (
+              <span className='big-space'>&nbsp;</span>
+            ) : (
+              <>
+                {index >= TOTAL_NUM_OF_COLORS ? (
+                  <span
+                    className={`letter letter-${index - TOTAL_NUM_OF_COLORS}`}
+                  >
+                    {char}
+                  </span>
+                ) : (
+                  <span className={`letter letter-${index}`}>{char}</span>
+                )}
+              </>
+            )}
+          </>
+        ))}
+      </>
     );
   }
-}
 
-export default SectionHeading;
+  return (
+    <div>
+      {headingTag === 'h1' ? (
+        <h1>{renderLetters(headingString)}</h1>
+      ) : (
+        <h2>{renderLetters(headingString)}</h2>
+      )}
+    </div>
+  );
+}
