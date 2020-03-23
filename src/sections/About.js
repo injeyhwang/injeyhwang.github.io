@@ -7,7 +7,7 @@ import '../styles/highlight.css';
 export default function About() {
   function renderIntro() {
     return (
-      <p>
+      <p className='sentence sentence-hover-glow'>
         Hello! I'm a recent&nbsp;
         <span className='major highlight grow'>Computer Science</span>
         &nbsp;graduate from&nbsp;
@@ -29,7 +29,7 @@ export default function About() {
 
   function renderLookingFor() {
     return (
-      <p>
+      <p className='sentence sentence-hover-glow'>
         I enjoy developing in&nbsp;
         <a className='react highlight grow' href='https://reactjs.org/'>
           React
@@ -50,7 +50,7 @@ export default function About() {
 
   function renderProject() {
     return (
-      <p>
+      <p className='sentence sentence-hover-glow'>
         And in case you were wondering, I built this website using&nbsp;
         <span className='react highlight grow'>React Hooks</span>
         ,&nbsp;
@@ -70,7 +70,7 @@ export default function About() {
 
   function renderInterests() {
     return (
-      <p>
+      <p className='sentence sentence-hover-glow'>
         When I'm not&nbsp;
         <span className='coding highlight grow'>Coding</span>, you can find
         me&nbsp;

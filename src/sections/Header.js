@@ -12,12 +12,15 @@ export default function Header() {
     <header>
       <SectionHeading headingTag={'h1'} headingString={'MICHAEL HWANG'} />
       <img className='profile-pic' src={photo} alt='pic' />
-      <div>
-        <h2 className='summary'>
-          I love to build and solve problems with code.
-        </h2>
-        <h2 className='summary'>Especially using Python and JavaScript!</h2>
+      <div className='letter letter-5'>
+        <h2>I love to build and solve problems with code.</h2>
+        <h2>Especially using JavaScript and Python.</h2>
       </div>
+      <h2 className='letter letter-3'>
+        <small>
+          <small>Try interacting with the website!</small>
+        </small>
+      </h2>
       <Social />
       <hr />
     </header>

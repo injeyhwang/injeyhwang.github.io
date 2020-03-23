@@ -1,3 +1,11 @@
+.sentence {
+  transition: color 0.1s ease-in-out;
+}
+
+.sentence-hover-glow:hover {
+  color: #147EFB;
+}
+
 .highlight {
   display: inline-block;
   border-radius: 3px;
