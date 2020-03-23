@@ -10,11 +10,11 @@ class SectionBlock extends Component {
     subTitle,
     rightJustified = null
   ) => (
-    <p className='title title-hover'>
+    <p className='block title-hover'>
       <span className='leftAlign'>
         <b>
           {mainTitleLink ? (
-            <a className='title link' href={mainTitleLink}>
+            <a className='block link' href={mainTitleLink}>
               {mainTitle}
             </a>
           ) : (
@@ -31,8 +31,10 @@ class SectionBlock extends Component {
 
   renderDescription = bulletPoints => (
     <ul>
-      {bulletPoints.map(description => (
-        <li key={description}>{description}</li>
+      {bulletPoints.map((description, index) => (
+        <li className={`block bullet-hover${index}`} key={description}>
+          {description}
+        </li>
       ))}
     </ul>
   );
