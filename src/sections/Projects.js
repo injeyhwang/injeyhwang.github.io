@@ -9,7 +9,7 @@ class Projects extends Component {
       <section>
         <SectionHeading headingTag={'h2'} headingString={'Selected Projects'} />
         <SectionBlock
-          mainTitle={'CryptoTracker – React Native Cryptocurrency Ticker'}
+          mainTitle={'CryptoTracker – Cryptocurrency Ticker'}
           mainTitleLink={'https://github.com/michaelihwang/crypto-tracker'}
           bulletPoints={[
             'Developed a cryptocurrency tracker that lists top 100 cryptocurrencies by market cap with latest prices and 24-hour percent change using React Native, Redux, and CoinMarketCap API'
