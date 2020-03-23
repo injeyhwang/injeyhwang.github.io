@@ -1,21 +1,10 @@
 import React, { Component } from 'react';
 
+import SectionHeading from '../components/SectionHeading';
+
 import '../styles/highlight.css';
 
 class About extends Component {
-  renderHeading = () => (
-    <h2>
-      <span className='letter letter-1'>A</span>
-      <span className='letter letter-2'>b</span>
-      <span className='letter letter-3'>o</span>
-      <span className='letter letter-4'>u</span>
-      <span className='letter letter-5'>t</span>
-      <span className='big-space'>&nbsp;</span>
-      <span className='letter letter-6'>M</span>
-      <span className='letter letter-7'>e</span>
-    </h2>
-  );
-
   renderIntro = () => (
     <p>
       Hello! I'm a recent&nbsp;
@@ -90,7 +79,7 @@ class About extends Component {
   render() {
     return (
       <section>
-        {this.renderHeading()}
+        <SectionHeading headingTag={'h2'} headingString={'About Me'} />
         {this.renderIntro()}
         {this.renderLookingFor()}
         {this.renderProject()}

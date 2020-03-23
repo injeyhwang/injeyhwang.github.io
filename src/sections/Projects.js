@@ -1,34 +1,13 @@
 import React, { Component } from 'react';
 
+import SectionHeading from '../components/SectionHeading';
 import SectionBlock from '../components/SectionBlock';
 
 class Projects extends Component {
-  renderHeading = () => (
-    <h2>
-      <span className='letter letter-1'>S</span>
-      <span className='letter letter-2'>e</span>
-      <span className='letter letter-3'>l</span>
-      <span className='letter letter-4'>e</span>
-      <span className='letter letter-5'>c</span>
-      <span className='letter letter-6'>t</span>
-      <span className='letter letter-7'>e</span>
-      <span className='letter letter-8'>d</span>
-      <span className='big-space'>&nbsp;</span>
-      <span className='letter letter-9'>P</span>
-      <span className='letter letter-10'>r</span>
-      <span className='letter letter-1'>o</span>
-      <span className='letter letter-2'>j</span>
-      <span className='letter letter-3'>e</span>
-      <span className='letter letter-4'>c</span>
-      <span className='letter letter-5'>t</span>
-      <span className='letter letter-6'>s</span>
-    </h2>
-  );
-
   render() {
     return (
       <section>
-        {this.renderHeading()}
+        <SectionHeading headingTag={'h2'} headingString={'Selected Projects'} />
         <SectionBlock
           mainTitle={'CryptoTracker – React Native Cryptocurrency Ticker'}
           mainTitleLink={'https://github.com/michaelihwang/crypto-tracker'}

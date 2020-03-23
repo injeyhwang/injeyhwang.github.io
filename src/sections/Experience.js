@@ -1,32 +1,13 @@
 import React, { Component } from 'react';
 
+import SectionHeading from '../components/SectionHeading';
 import SectionBlock from '../components/SectionBlock';
 
 class Experience extends Component {
-  renderHeading = () => (
-    <h2>
-      <span className='letter letter-1'>W</span>
-      <span className='letter letter-2'>o</span>
-      <span className='letter letter-3'>r</span>
-      <span className='letter letter-4'>k</span>
-      <span className='big-space'>&nbsp;</span>
-      <span className='letter letter-1'>E</span>
-      <span className='letter letter-2'>x</span>
-      <span className='letter letter-3'>p</span>
-      <span className='letter letter-4'>e</span>
-      <span className='letter letter-5'>r</span>
-      <span className='letter letter-6'>i</span>
-      <span className='letter letter-7'>e</span>
-      <span className='letter letter-8'>n</span>
-      <span className='letter letter-9'>c</span>
-      <span className='letter letter-10'>e</span>
-    </h2>
-  );
-
   render() {
     return (
       <section>
-        {this.renderHeading()}
+        <SectionHeading headingTag={'h2'} headingString={'Work Experience'} />
         <SectionBlock
           mainTitle={'Wardrobe Technologies Inc'}
           supportTitle={', New York, NY'}

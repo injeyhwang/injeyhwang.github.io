@@ -6,43 +6,43 @@
   transition: color 0.1s ease-in-out;
 }
 
-.letter-1:hover {
+.letter-0:hover {
   color: #147EFB;
 }
 
-.letter-2:hover {
+.letter-1:hover {
   color: #FF8F00;
 }
 
-.letter-3:hover {
+.letter-2:hover {
   color: #FECB2E;
 }
 
-.letter-4:hover {
+.letter-3:hover {
   color: #833AB4;
 }
 
-.letter-5:hover {
+.letter-4:hover {
   color: #AAF0D1;
 }
 
-.letter-6:hover {
+.letter-5:hover {
   color: #EB5929;
 }
 
-.letter-7:hover {
+.letter-6:hover {
   color: #7ED8F7;
 }
 
-.letter-8:hover {
+.letter-7:hover {
   color: #EF5350;
 }
 
-.letter-9:hover {
+.letter-8:hover {
   color: #3949AB;
 }
 
-.letter-10:hover {
+.letter-9:hover {
   color: #4CAF50;
 }
 
