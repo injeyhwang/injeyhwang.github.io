@@ -43,7 +43,7 @@ I prefer to use `yarn` over `npm` as my package manager. I used homebrew to inst
 
 or
 
-`yarn create react-app my-app --template typescript`
+`yarn create react-app username.github.io --template typescript`
 
 If you are building in `TypeScript`.
 
