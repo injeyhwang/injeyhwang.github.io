@@ -2,6 +2,15 @@ import React from 'react';
 
 import '../styles/block.css';
 
+type SectionBlockProps = {
+  mainTitle: string;
+  mainTitleLink?: string;
+  supportTitle?: string;
+  subTitle?: string;
+  rightJustified?: string;
+  bulletPoints?: string[];
+};
+
 export default function SectionBlock({
   mainTitle,
   mainTitleLink,
@@ -9,14 +18,8 @@ export default function SectionBlock({
   subTitle,
   rightJustified,
   bulletPoints
-}) {
-  function renderHeading(
-    mainTitle,
-    mainTitleLink,
-    supportTitle = null,
-    subTitle,
-    rightJustified = null
-  ) {
+}: SectionBlockProps) {
+  function renderHeading() {
     return (
       <p className='block title-hover'>
         <span className='leftAlign'>
@@ -26,7 +29,7 @@ export default function SectionBlock({
                 {mainTitle}
               </a>
             ) : (
-              <font>{mainTitle}</font>
+              mainTitle
             )}
           </b>
           {supportTitle}
@@ -38,28 +41,22 @@ export default function SectionBlock({
     );
   }
 
-  function renderDescription(bulletPoints) {
+  function renderDescription() {
     return (
       <ul>
-        {bulletPoints.map((description, index) => (
+        {bulletPoints ? bulletPoints.map((description, index) => (
           <li className={`block bullet-hover${index}`} key={description}>
             {description}
           </li>
-        ))}
+        )) : null}
       </ul>
     );
   }
 
   return (
     <div>
-      {renderHeading(
-        mainTitle,
-        mainTitleLink,
-        supportTitle,
-        subTitle,
-        rightJustified
-      )}
-      {bulletPoints ? renderDescription(bulletPoints) : null}
+      {renderHeading()}
+      {renderDescription()}
     </div>
   );
 }

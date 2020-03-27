@@ -9,6 +9,7 @@ export default function Education() {
       <SectionHeading headingTag={'h2'} headingString={'Education'} />
       <SectionBlock
         mainTitle={'Columbia University'}
+        mainTitleLink={'https://www.cs.columbia.edu/'}
         supportTitle={', New York, NY'}
         subTitle={'BA in Computer Science: Minor in Economics'}
         rightJustified={'May 2019'}

@@ -3,17 +3,22 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 For the longest time, I wanted to build and launch my personal website. So I decided to use this past weekend to make it happen. After hours of coding, googling, and several cups of coffee, it's finally up and running! It's been a ton of fun and learned a lot about React, HTML, CSS along the way. To help others do the same, I wrote the following guide so that it may help deploy their own React-based Web App or Website.
 
-*Note: I built this website using `React Hooks`, `CSS`, `GitHub`, and `Yarn`. The only package dependencies I used are [Font Awesome](https://fontawesome.com/) icons.*
+*Note: I built this website using `TypeScript` `React Hooks`, `CSS`, `GitHub`, and `Yarn`. The only package dependencies I used are [Font Awesome](https://fontawesome.com/) icons.*
 
-## React
+## React & TypeScript
 ### Version
-* [react](https://github.com/facebook/react): 16.8.6
+* [react](https://github.com/facebook/react): 16.13.1
+* [typescript](https://www.typescriptlang.org/): 3.8.3
 
 ### Dependencies
 * [react-fontawesome](https://github.com/FortAwesome/react-fontawesome): 0.1.4
 * [@fontawesome/fontawesome-svg-core](https://github.com/FortAwesome/react-fontawesome): 1.2.19
 * [@fontawesome/free-brands-svg-icons](https://github.com/FortAwesome/react-fontawesome): 5.9.0
 * [@fontawesome/free-solid-svg-icons](https://github.com/FortAwesome/react-fontawesome): 5.9.0
+* @types/jest: 25.1.4
+* @types/node: 13.9.5
+* @types/react: 16.9.26
+* @types/react-dom: 16.9.5
 
 ## Preliminaries
 ### GitHub Pages
@@ -35,6 +40,19 @@ I prefer to use `yarn` over `npm` as my package manager. I used homebrew to inst
 [Create React App](https://facebook.github.io/create-react-app/docs/getting-started) allows for a quick and lightweight setup of your single-page React App. On the Terminal, run:
 
 `$ yarn create react-app username.github.io`
+
+or
+
+`yarn create react-app my-app --template typescript`
+
+If you are building in `TypeScript`.
+
+### TypeScript
+After getting into `TypeScript`, I decided to refactor my code. To add TypeScript to `Create React App` first install:
+
+`$ yarn add typescript @types/node @types/react @types/react-dom @types/jest`
+
+Then, rename any file to be a TypeScript file (e.g. `src/index.js` to `src/index.tsx`) and restart your development server!
 
 ## Dependency Installation
 With `yarn` (or `npm`), you have access to thousands of packages that others have built (Create React App is one of them).

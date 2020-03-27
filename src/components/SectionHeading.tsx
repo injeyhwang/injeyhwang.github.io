@@ -4,12 +4,17 @@ import '../styles/highlight.css';
 
 const TOTAL_NUM_OF_COLORS = 10;   // 10 different letter colors in .css file
 
-export default function SectionHeading({ headingTag, headingString }) {
-  function renderLetters(headingString) {
+type SectionHeadingProps = {
+  headingTag: string;
+  headingString: string;
+};
+
+export default function SectionHeading({ headingTag, headingString }: SectionHeadingProps) {
+  function renderLetters() {
     return (
-      <>
-        {headingString.split('').map((char, index) => (
-          <>
+      <React.Fragment>
+        {headingString.split('').map((char: string, index: number) => (
+          <React.Fragment key={index}>
             {char === ' ' ? (
               <span className='big-space'>&nbsp;</span>
             ) : (
@@ -25,18 +30,18 @@ export default function SectionHeading({ headingTag, headingString }) {
                 )}
               </>
             )}
-          </>
+          </React.Fragment>
         ))}
-      </>
+      </React.Fragment>
     );
   }
 
   return (
     <div>
       {headingTag === 'h1' ? (
-        <h1>{renderLetters(headingString)}</h1>
+        <h1>{renderLetters()}</h1>
       ) : (
-        <h2>{renderLetters(headingString)}</h2>
+        <h2>{renderLetters()}</h2>
       )}
     </div>
   );

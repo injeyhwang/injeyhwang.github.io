@@ -6,7 +6,11 @@ import theme from '../util/Themes';
 
 import '../styles/container.css';
 
-export default function ThemeContainer({ children }) {
+type ThemeContainerProps = {
+  children: React.ReactNode;
+};
+
+export default function ThemeContainer({ children }: ThemeContainerProps) {
   const [darkMode, setDarkMode] = useState(localStorage.getItem('darkMode') === 'true');
 
   function toggleTheme() {
@@ -14,13 +18,13 @@ export default function ThemeContainer({ children }) {
   }
 
   useEffect(() => {
-    localStorage.setItem('darkMode', darkMode);
+    localStorage.setItem('darkMode', darkMode ? 'true' : 'false');
   }, [darkMode]);
 
   return (
     <div style={darkMode ? theme.dark : theme.light}>
       <div className='container'>
-        <ThemeSwitch toggleTheme={toggleTheme} />
+        <ThemeSwitch onClick={toggleTheme} />
         {children}
       </div>
     </div>

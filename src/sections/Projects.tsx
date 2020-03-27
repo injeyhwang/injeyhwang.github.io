@@ -8,6 +8,13 @@ export default function Projects() {
     <section>
       <SectionHeading headingTag={'h2'} headingString={'Selected Projects'} />
       <SectionBlock
+        mainTitle={'michaelihwang.com – Personal Website'}
+        mainTitleLink={'https://michaelihwang.com'}
+        bulletPoints={[
+          'Published a personal website with detailed readme guide on GitHub; built with TypeScript, React, CSS, and GitHub Pages'
+        ]}
+      />
+      <SectionBlock
         mainTitle={'CryptoTracker – Cryptocurrency Ticker'}
         mainTitleLink={'https://github.com/michaelihwang/crypto-tracker'}
         bulletPoints={[

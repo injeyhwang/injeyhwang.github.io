@@ -52,7 +52,9 @@ export default function About() {
     return (
       <p className='sentence sentence-hover-glow'>
         And in case you were wondering, I built this website using&nbsp;
-        <span className='react highlight grow'>React Hooks</span>
+        <span className='typescript highlight grow'>TypeScript</span>
+        ,&nbsp;
+        <span className='react highlight grow'>React</span>
         ,&nbsp;
         <span className='css highlight grow'>CSS</span>, and&nbsp;
         <span className='github highlight grow'>GitHub Pages</span>. You can
