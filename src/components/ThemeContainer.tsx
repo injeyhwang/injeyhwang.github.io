@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 import ThemeSwitch from './ThemeSwitch';
 
-import theme from '../util/Themes';
+import theme from '../util/themes';
 
 import '../styles/container.css';
 
@@ -11,10 +11,10 @@ type ThemeContainerProps = {
 };
 
 export default function ThemeContainer({ children }: ThemeContainerProps) {
-  const [darkMode, setDarkMode] = useState(localStorage.getItem('darkMode') === 'true');
+  const [darkMode, setDarkMode] = useState<boolean>(localStorage.getItem('darkMode') === 'true');
 
   function toggleTheme() {
-    setDarkMode(!darkMode);
+    setDarkMode((prevMode => !prevMode));
   }
 
   useEffect(() => {

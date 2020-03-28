@@ -12,9 +12,9 @@ type SectionHeadingProps = {
 export default function SectionHeading({ headingTag, headingString }: SectionHeadingProps) {
   function renderLetters() {
     return (
-      <React.Fragment>
+      <span>
         {headingString.split('').map((char: string, index: number) => (
-          <React.Fragment key={index}>
+          <span key={index}>
             {char === ' ' ? (
               <span className='big-space'>&nbsp;</span>
             ) : (
@@ -30,9 +30,9 @@ export default function SectionHeading({ headingTag, headingString }: SectionHea
                 )}
               </>
             )}
-          </React.Fragment>
+          </span>
         ))}
-      </React.Fragment>
+      </span>
     );
   }
 

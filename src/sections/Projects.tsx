@@ -9,9 +9,9 @@ export default function Projects() {
       <SectionHeading headingTag={'h2'} headingString={'Selected Projects'} />
       <SectionBlock
         mainTitle={'michaelihwang.com – Personal Website'}
-        mainTitleLink={'https://michaelihwang.com'}
+        mainTitleLink={'https://github.com/michaelihwang/michaelihwang.github.io'}
         bulletPoints={[
-          'Published a personal website with detailed readme guide on GitHub; built with TypeScript, React, CSS, and GitHub Pages'
+          'Created a personal website using TypeScript, React, CSS, and GitHub Pages with a detailed README guide on GitHub'
         ]}
       />
       <SectionBlock
