@@ -6,6 +6,7 @@
 html {
   background-color: #16171D;
   font-size: 16px;
+  line-height: 1.75em;
 }
 
 ::-webkit-scrollbar {
@@ -75,6 +76,10 @@ code {
  * If the screen size is 500px wide or less, set the font-size of <h1> to 30px
  */
 @media screen and (max-width: 500px) {
+  html {
+    line-height: 1.5em;
+  }
+
   div .theme-switch {
     font-size: 1.5em;
   }
@@ -116,15 +121,23 @@ code {
     font-size: 0.9em;
   }
 
+  li {
+    font-size: 0.9em;
+  }
+
   footer .copyright {
     font-size: 0.9em;
   }
 }
 
 /* 
- * If the screen size is 500px wide or less, set the font-size of <h1> to 30px
+ * If the screen size is 350px wide or less, set the font-size of <h1> to 30px
  */
 @media screen and (max-width: 350px) {
+  html {
+    line-height: 1em;
+  }
+
   div .theme-switch {
     font-size: 1.25em;
   }
@@ -159,6 +172,10 @@ code {
   }
 
   section p {
+    font-size: 0.8em;
+  }
+
+  li {
     font-size: 0.8em;
   }
 

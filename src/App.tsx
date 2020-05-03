@@ -1,22 +1,23 @@
 import React from 'react';
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 import ThemeContainer from './components/ThemeContainer';
-import Header from './sections/Header';
-import About from './sections/About';
-import Experience from './sections/Experience';
-import Projects from './sections/Projects';
-import Education from './sections/Education';
-import Footer from './sections/Footer';
+import Header from './components/Header';
+import HomeView from './views/HomeView';
+import ResumeView from './views/ResumeView';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
-    <ThemeContainer>
-      <Header />
-      <About />
-      <Experience />
-      <Projects />
-      <Education />
-      <Footer />
-    </ThemeContainer>
+    <Router>
+      <Switch>
+        <ThemeContainer>
+          <Header />
+          <Route path="/" component={HomeView} exact />
+          <Route path="/resume" component={ResumeView} />
+          <Footer />
+        </ThemeContainer>
+      </Switch>
+    </Router>
   );
 }

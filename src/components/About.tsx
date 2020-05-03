@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SectionHeading from '../components/SectionHeading';
+import SectionHeading from './SectionHeading';
 
 import '../styles/highlight.css';
 
@@ -27,6 +27,20 @@ export default function About() {
     );
   }
 
+  function renderCurrentlyDoing() {
+    return (
+      <p className='sentence sentence-hover-glow'>
+        Currently, I'm one of five engineers of a nonprofit project:&nbsp;
+        <a className='openmeal highlight grow' href='https://www.openmeal.org/'>
+          OpenMeal.org
+        </a>
+        . We are building a marketplace that allows donors to purchase meals&nbsp;
+        for individuals who are financially impacted by the COVID-19 pandemic.&nbsp;
+        Please head on over!
+      </p>
+    );
+  }
+
   function renderLookingFor() {
     return (
       <p className='sentence sentence-hover-glow'>
@@ -34,6 +48,8 @@ export default function About() {
         <a className='react highlight grow' href='https://reactjs.org/'>
           React
         </a>
+        &nbsp;with&nbsp;
+        <span className='typescript highlight grow'>TypeScript</span>
         &nbsp;and love working with&nbsp;
         <a className='graphql highlight grow' href='https://graphql.org/'>
           GraphQL
@@ -44,28 +60,6 @@ export default function About() {
         </a>
         &nbsp;. That said, I'm also flexible; I'm eager to learn new
         technologies and take on challenges outside my domain.
-      </p>
-    );
-  }
-
-  function renderProject() {
-    return (
-      <p className='sentence sentence-hover-glow'>
-        And in case you were wondering, I built this website using&nbsp;
-        <span className='typescript highlight grow'>TypeScript</span>
-        ,&nbsp;
-        <span className='react highlight grow'>React</span>
-        ,&nbsp;
-        <span className='css highlight grow'>CSS</span>, and&nbsp;
-        <span className='github highlight grow'>GitHub Pages</span>. You can
-        check out my other projects by going to my&nbsp;
-        <a
-          className='github highlight grow'
-          href='https://github.com/michaelihwang'
-        >
-          GitHub
-        </a>
-        .
       </p>
     );
   }
@@ -90,8 +84,8 @@ export default function About() {
     <section>
       <SectionHeading headingTag={'h2'} headingString={'About Me'} />
       {renderIntro()}
+      {renderCurrentlyDoing()}
       {renderLookingFor()}
-      {renderProject()}
       {renderInterests()}
     </section>
   );
