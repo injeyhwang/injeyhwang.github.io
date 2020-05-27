@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 For the longest time, I wanted to build and launch my personal website. So I decided to use this past weekend to make it happen. After hours of coding, googling, and several cups of coffee, it's finally up and running! It's been a ton of fun and learned a lot about React, HTML, CSS along the way. To help others do the same, I wrote the following guide so that it may help deploy their own React-based Web App or Website.
 
-*Note: I built this website using `TypeScript` `React Hooks`, `CSS`, `GitHub`, and `Yarn`. The only package dependencies I used are [Font Awesome](https://fontawesome.com/) icons.*
+* Note: I built this website using `TypeScript` `React Hooks`, `CSS`, `GitHub`, and `Yarn`.
 
 ## React & TypeScript
 ### Version
@@ -19,6 +19,7 @@ For the longest time, I wanted to build and launch my personal website. So I dec
 * @types/node: 13.9.5
 * @types/react: 16.9.26
 * @types/react-dom: 16.9.5
+* axios: 0.19.2
 
 ## Preliminaries
 ### GitHub Pages

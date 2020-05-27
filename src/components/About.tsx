@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { getTotalDonations, getTotalMealsClaimed } from '../util/APICaller';
 
 import SectionHeading from './SectionHeading';
 
 import '../styles/highlight.css';
 
 export default function About() {
+  const [totalUSDRaised, setTotalUSDRaised] = useState('Loading...');
+  useEffect(() => {
+    getTotalDonations(setTotalUSDRaised);
+  }, [totalUSDRaised]);
+
+  const [totalMealsClaimed, setTotalMealsClaimed] = useState('Loading...');
+  useEffect(() => {
+    getTotalMealsClaimed(setTotalMealsClaimed);
+  }, [totalMealsClaimed]);
+
   function renderIntro() {
     return (
       <p className='sentence sentence-hover-glow'>
@@ -40,8 +51,13 @@ export default function About() {
           impacted by the COVID-19 pandemic.
         </p>
         <p className='sentence sentence-hover-glow'>
-          We raised $3,652.76 USD with 93 meals claimed as of May 27, 2020.&nbsp;
-          Please head on over if you haven't!
+          We raised&nbsp;
+          <span className='openmeal highlight grow'>{totalUSDRaised}</span>&nbsp;
+          USD with&nbsp;
+          <span className='openmeal highlight grow'>{totalMealsClaimed}</span>&nbsp;
+          meals claimed as of {new Date().toLocaleString('en-US', {
+            year: 'numeric', month: 'long', day: 'numeric'
+          })}. Please head on over if you haven't!
         </p>
       </>
     );
