@@ -38,6 +38,29 @@ export default function About() {
     );
   }
 
+  function renderLookingFor() {
+    return (
+      <p className='sentence sentence-hover-glow'>
+        I enjoy developing in&nbsp;
+        <a className='react highlight grow' href='https://reactjs.org/'>
+          React
+        </a>
+        &nbsp;with&nbsp;
+        <span className='typescript highlight grow'>TypeScript</span>
+        &nbsp;and love working with&nbsp;
+        <a className='graphql highlight grow' href='https://graphql.org/'>
+          GraphQL
+        </a>
+        &nbsp;and&nbsp;
+        <a className='python highlight grow' href='https://www.python.org/'>
+          Python
+        </a>
+        &nbsp;. That said, I'm also flexible; I'm eager to learn new
+        technologies and take on challenges outside my domain.
+      </p>
+    );
+  }
+
   function renderCurrentlyDoing() {
     return (
       <>
@@ -65,29 +88,6 @@ export default function About() {
     );
   }
 
-  function renderLookingFor() {
-    return (
-      <p className='sentence sentence-hover-glow'>
-        I enjoy developing in&nbsp;
-        <a className='react highlight grow' href='https://reactjs.org/'>
-          React
-        </a>
-        &nbsp;with&nbsp;
-        <span className='typescript highlight grow'>TypeScript</span>
-        &nbsp;and love working with&nbsp;
-        <a className='graphql highlight grow' href='https://graphql.org/'>
-          GraphQL
-        </a>
-        &nbsp;and&nbsp;
-        <a className='python highlight grow' href='https://www.python.org/'>
-          Python
-        </a>
-        &nbsp;. That said, I'm also flexible; I'm eager to learn new
-        technologies and take on challenges outside my domain.
-      </p>
-    );
-  }
-
   function renderInterests() {
     return (
       <p className='sentence sentence-hover-glow'>
@@ -108,8 +108,8 @@ export default function About() {
     <section>
       <SectionHeading headingTag={'h2'} headingString={'About Me'} />
       {renderIntro()}
-      {renderCurrentlyDoing()}
       {renderLookingFor()}
+      {renderCurrentlyDoing()}
       {renderInterests()}
     </section>
   );
