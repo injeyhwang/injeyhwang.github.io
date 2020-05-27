@@ -55,9 +55,11 @@ export default function About() {
           <span className='openmeal highlight grow'>{totalUSDRaised}</span>&nbsp;
           USD with&nbsp;
           <span className='openmeal highlight grow'>{totalMealsClaimed}</span>&nbsp;
-          meals claimed as of {new Date().toLocaleString('en-US', {
-            year: 'numeric', month: 'long', day: 'numeric'
-          })}. Please head on over if you haven't!
+          meals claimed as of <span className='openmeal highlight grow'>{
+            new Date().toLocaleString('en-US', {
+              year: 'numeric', month: 'long', day: 'numeric'
+            })
+          }</span>. Please head on over if you haven't!
         </p>
       </>
     );
