@@ -18,14 +18,6 @@ export default function Header() {
         <h2>I love to build and solve problems with code.</h2>
         <h2>Especially using JavaScript and Python.</h2>
       </div>
-      <div className='navContainer'>
-        <Link className='navLinkText' to={'/'}>
-          {location.pathname === '/' ? <h2><b>About</b></h2> : <h2>About</h2>}
-        </Link>
-        <Link className='navLinkText' to={'/resume'}>
-          {location.pathname === '/resume' ? <h2><b>Resume</b></h2> : <h2>Resume</h2>}
-        </Link>
-      </div>
       <Social />
       <hr />
     </header>

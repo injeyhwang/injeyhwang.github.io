@@ -29,15 +29,21 @@ export default function About() {
 
   function renderCurrentlyDoing() {
     return (
-      <p className='sentence sentence-hover-glow'>
-        Currently, I'm one of five engineers of a nonprofit project:&nbsp;
-        <a className='openmeal highlight grow' href='https://www.openmeal.org/'>
-          OpenMeal.org
-        </a>
-        . We are building a marketplace that allows donors to purchase meals&nbsp;
-        for individuals who are financially impacted by the COVID-19 pandemic.&nbsp;
-        Please head on over!
-      </p>
+      <>
+        <p className='sentence sentence-hover-glow'>
+          Currently, I'm one of five founding engineers of a nonprofit project:&nbsp;
+          <a className='openmeal highlight grow' href='https://www.openmeal.org/'>
+            OpenMeal.org
+          </a>
+          . We built a platform that allow donors to purchase meals from local&nbsp;
+          (NYC/SF) restaurants for individuals who are financially&nbsp;
+          impacted by the COVID-19 pandemic.
+        </p>
+        <p className='sentence sentence-hover-glow'>
+          We raised $3,652.76 USD with 93 meals claimed as of May 27, 2020.&nbsp;
+          Please head on over if you haven't!
+        </p>
+      </>
     );
   }
 
