@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
 
 import SectionHeading from './SectionHeading';
 import Social from './Social';
@@ -9,7 +8,6 @@ import photo from '../assets/memoji.jpeg';
 import '../styles/header.css';
 
 export default function Header() {
-  const location = useLocation();
   return (
     <header>
       <SectionHeading headingTag={'h1'} headingString={'MICHAEL HWANG'} />

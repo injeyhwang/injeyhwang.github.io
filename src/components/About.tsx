@@ -48,10 +48,6 @@ export default function About() {
         &nbsp;with&nbsp;
         <span className='typescript highlight grow'>TypeScript</span>
         &nbsp;and love working with&nbsp;
-        <a className='graphql highlight grow' href='https://graphql.org/'>
-          GraphQL
-        </a>
-        &nbsp;and&nbsp;
         <a className='python highlight grow' href='https://www.python.org/'>
           Python
         </a>
@@ -65,11 +61,11 @@ export default function About() {
     return (
       <>
         <p className='sentence sentence-hover-glow'>
-          Currently, I'm one of five founding engineers of a nonprofit project:&nbsp;
+          Currently, I'm one of five founding engineers of a grassroots nonprofit:&nbsp;
           <a className='openmeal highlight grow' href='https://www.openmeal.org/'>
             OpenMeal.org
           </a>
-          . We built a platform that allow donors to purchase meals from local&nbsp;
+          . We built a platform that allows donors to purchase meals from local&nbsp;
           (NYC/SF) restaurants for individuals who are financially&nbsp;
           impacted by the COVID-19 pandemic.
         </p>
