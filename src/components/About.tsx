@@ -42,9 +42,13 @@ export default function About() {
         <a className='react highlight grow' href='https://reactjs.org/'>
           React Hooks
         </a>
-        &nbsp;+&nbsp;
+        &nbsp;,&nbsp;
         <span className='typescript highlight grow'>TypeScript</span>
-        &nbsp;and love working with&nbsp;
+        &nbsp;, and&nbsp;
+        <a className='tailwind highlight grow' href='https://tailwindcss.com/'>
+          Tailwind CSS
+        </a>
+        &nbsp; and love working with&nbsp;
         <a className='python highlight grow' href='https://www.python.org/'>
           Python
         </a>
