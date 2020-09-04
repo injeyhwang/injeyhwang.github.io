@@ -14,9 +14,9 @@
   text-decoration: none;
 }
 
-.openmeal {
-  background-color: #5C3838;
-  color:#FFFFFF;
+.hello {
+  background-color: #FFDC80;
+  color:#282C33;
 }
 
 .major {
@@ -29,19 +29,9 @@
   color:#282C33;
 }
 
-.career {
-  background-color: #EF5350;
-  color:#FFFFFF;
-}
-
 .full-stack-engineer {
   background-color: #1652F0;
   color:#FFFFFF;
-}
-
-.frontend-engineer {
-  background-color: #FFDC80;
-  color:#282C33;
 }
 
 .typescript {
@@ -59,18 +49,18 @@
   color:#282C33;
 }
 
-.css {
-  background-color: #3468E8;
+.openmeal {
+  background-color: #FF6027;
   color:#FFFFFF;
 }
 
-.github {
-  background-color: #222222;
+.co-founder {
+  background-color: #E8745D;
   color:#FFFFFF;
 }
 
-.graphql {
-  background-color: #CF3095;
+.fe-lead {
+  background-color: #5E7A66;
   color:#FFFFFF;
 }
 
