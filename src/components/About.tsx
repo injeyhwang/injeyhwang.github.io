@@ -22,7 +22,7 @@ export default function About() {
         <span className='hello highlight grow'>
           Hello!
         </span>
-         &nbsp;I'm a 🇨🇦&nbsp;
+         &nbsp;I'm a 🇨🇦&nbsp;&nbsp;
         <span className='full-stack-engineer highlight grow'>
           Full-Stack Engineer
         </span>
@@ -40,7 +40,7 @@ export default function About() {
       <p className='sentence sentence-hover-glow'>
         I enjoy building with&nbsp;
         <a className='react highlight grow' href='https://reactjs.org/'>
-          React Hooks
+          React
         </a>
         &nbsp;,&nbsp;
         <span className='typescript highlight grow'>TypeScript</span>
@@ -48,7 +48,7 @@ export default function About() {
         <a className='tailwind highlight grow' href='https://tailwindcss.com/'>
           Tailwind CSS
         </a>
-        &nbsp; and love working with&nbsp;
+        &nbsp;and love working with&nbsp;
         <a className='python highlight grow' href='https://www.python.org/'>
           Python
         </a>
