@@ -3,9 +3,5 @@ import React from 'react';
 import About from '../components/About';
 
 export default function HomeView() {
-  return (
-    <div>
-      <About />
-    </div>
-  );
+  return <About />;
 }
