@@ -1,25 +1,26 @@
-# Michael's First Personal Website!
+# Michael's First Personal Website (Deployed July 2020)!
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 For the longest time, I wanted to build and launch my personal website. So I decided to use this past weekend to make it happen. After hours of coding, googling, and several cups of coffee, it's finally up and running! It's been a ton of fun and learned a lot about React, HTML, CSS along the way. To help others do the same, I wrote the following guide so that it may help deploy their own React-based Web App or Website.
 
-* Note: I built this website using `TypeScript` `React Hooks`, `CSS`, `GitHub`, and `Yarn`.
+* Note: I built this website using `React`, `CSS`, `GitHub`, and `Yarn`.
+
+* Update 1: Refactored code to `TypeScript` March 2020
+* Update 2: Added `Google Analytics` October 2020
 
 ## React & TypeScript
 ### Version
 * [react](https://github.com/facebook/react): 16.13.1
 * [typescript](https://www.typescriptlang.org/): 3.8.3
 
-### Dependencies
+### Notable Dependencies
 * [react-fontawesome](https://github.com/FortAwesome/react-fontawesome): 0.1.4
 * [@fontawesome/fontawesome-svg-core](https://github.com/FortAwesome/react-fontawesome): 1.2.19
 * [@fontawesome/free-brands-svg-icons](https://github.com/FortAwesome/react-fontawesome): 5.9.0
 * [@fontawesome/free-solid-svg-icons](https://github.com/FortAwesome/react-fontawesome): 5.9.0
-* @types/jest: 25.1.4
-* @types/node: 13.9.5
-* @types/react: 16.9.26
-* @types/react-dom: 16.9.5
 * axios: 0.19.2
+* gh-pages: 2.0.1
+* react-ga: 3.1.2
 
 ## Preliminaries
 ### GitHub Pages
@@ -48,12 +49,15 @@ or
 
 If you are building in `TypeScript`.
 
-### TypeScript
+### TypeScript (March 2020 Update)
 After getting into `TypeScript`, I decided to refactor my code. To add TypeScript to `Create React App` first install:
 
 `$ yarn add typescript @types/node @types/react @types/react-dom @types/jest`
 
 Then, rename any file to be a TypeScript file (e.g. `src/index.js` to `src/index.tsx`) and restart your development server!
+
+## Google Analytics (October 2020 Update)
+I've added Google Analytics to keep tabs on website visits. Metrics are useful!
 
 ## Dependency Installation
 With `yarn` (or `npm`), you have access to thousands of packages that others have built (Create React App is one of them).
