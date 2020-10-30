@@ -15,7 +15,7 @@
 }
 
 .hello {
-  background-color: #FFDC80;
+  background-color: #fdaf68;
   color:#282C33;
 }
 
@@ -59,6 +59,11 @@
   color:#FFFFFF;
 }
 
+.metric {
+  background-color: #ffcf77;
+  color:#3f3f3f;
+}
+
 .co-founder {
   background-color: #E8745D;
   color:#FFFFFF;
@@ -74,7 +79,7 @@
   color:#FFFFFF;
 }
 
-.powerlifting {
+.finance {
   background-color: #6ED799;
   color:#000000;
 }
@@ -87,6 +92,11 @@
 .photos {
   background-color: #FECB2E;
   color:#000000;
+}
+
+.travel {
+  background-color: #FF5A5F;
+  color:#FFFFFF;
 }
 
 .grow {

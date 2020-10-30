@@ -22,11 +22,11 @@ export default function About() {
         <span className='hello highlight grow'>
           Hello!
         </span>
-         &nbsp;I'm a 🇨🇦&nbsp;&nbsp;
+         &nbsp;I'm a 🇨🇦&nbsp;
         <span className='full-stack-engineer highlight grow'>
           Full-Stack Engineer
         </span>
-        &nbsp;and a&nbsp;
+        &nbsp;and&nbsp;
         <span className='major highlight grow'>Computer Science</span>
         &nbsp;graduate from&nbsp;
         <span className='school highlight grow'>Columbia University</span>
@@ -70,17 +70,15 @@ export default function About() {
           <a className='openmeal highlight grow' href='https://www.openmeal.org/'>
             OpenMeal
           </a>
-          , an online 501(c)(3) nonprofit platform that allows donors to purchase meals
+          , an online 501(c)(3) nonprofit platform where donors can purchase meals
           for individuals financially impacted by COVID-19 from our partnered restaurants.
         </p>
         <p className='sentence sentence-hover-glow'>
-          Since our launch May 2020, we fundraised&nbsp;
-          <span className='openmeal highlight grow'>{totalUSDRaised}</span>
-          &nbsp;USD with&nbsp;
-          <span className='openmeal highlight grow'>16 </span>
-          &nbsp;partnered restaurants and helped individuals claim&nbsp;
-          <span className='openmeal highlight grow'>{totalMealsClaimed}</span>
-          &nbsp;meals as of <span className='openmeal highlight grow'>{
+          Since our launch May 2020, we distributed&nbsp;
+          <span className='metric highlight grow'>{totalUSDRaised}</span>
+          &nbsp;USD to our partnered restaurants and helped individuals and families claim&nbsp;
+          <span className='metric highlight grow'>{totalMealsClaimed}</span>
+          &nbsp;meals as of <span className='metric highlight grow'>{
             new Date().toLocaleString('en-US', {
               year: 'numeric', month: 'long', day: 'numeric'
             })
@@ -94,14 +92,14 @@ export default function About() {
     return (
       <p className='sentence sentence-hover-glow'>
         When I'm not&nbsp;
-        <span className='coding highlight grow'>Coding</span>, you can find
-        me&nbsp;
-        <span className='powerlifting highlight grow'>Powerlifting</span>
-        &nbsp;at the gym,&nbsp;
-        <span className='running highlight grow'>Running</span>
-        &nbsp;through the city, or taking cityscape&nbsp;
-        <span className='photos highlight grow'>Photos</span>
-        &nbsp;around the world!
+        <span className='coding highlight grow'>Coding</span>, I nerd over&nbsp;
+        <span className='finance highlight grow'>Personal Finance</span>
+        , go for a&nbsp;
+        <span className='running highlight grow'>Run</span>
+        &nbsp;around the city, or take cityscape&nbsp;
+        <span className='photos highlight grow'>Photography</span>
+        &nbsp;and&nbsp;
+        <span className='travel highlight grow'>Travel</span>!
       </p>
     );
   }

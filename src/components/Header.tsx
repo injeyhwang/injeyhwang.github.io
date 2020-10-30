@@ -14,7 +14,7 @@ export default function Header() {
       <img className='profile-pic' src={photo} alt='pic' />
       <div className='letter letter-5'>
         <h2>I love to build and solve problems with code.</h2>
-        <h2>Especially using TypeScript and Python.</h2>
+        <h2>Especially using TypeScript and Python!</h2>
       </div>
       <Social />
       <hr />
