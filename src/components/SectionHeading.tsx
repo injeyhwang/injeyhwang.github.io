@@ -46,6 +46,7 @@ export default function SectionHeading({ headingTag, headingString }: SectionHea
           className='resume'
           href={require('../assets/michael_hwang_resume.pdf')}
           target='_blank'
+          rel='noopener noreferrer'
         >
           {renderLetters()}
         </a>
