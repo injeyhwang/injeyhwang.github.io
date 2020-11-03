@@ -1,5 +1,6 @@
 import React from 'react';
 
+import '../styles/heading.css';
 import '../styles/highlight.css';
 
 const TOTAL_NUM_OF_COLORS = 10;   // 10 different letter colors in .css file
@@ -40,9 +41,17 @@ export default function SectionHeading({ headingTag, headingString }: SectionHea
     <div>
       {headingTag === 'h1' ? (
         <h1>{renderLetters()}</h1>
+      ) : (headingTag === 'a' ? (
+        <a
+          className='resume'
+          href={require('../assets/michael_hwang_resume.pdf')}
+          target='_blank'
+        >
+          {renderLetters()}
+        </a>
       ) : (
         <h2>{renderLetters()}</h2>
-      )}
+      ))}
     </div>
   );
 }

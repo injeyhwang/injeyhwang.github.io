@@ -3,6 +3,7 @@ import { getTotalDonations, getTotalMealsClaimed } from '../util/APICaller';
 
 import SectionHeading from './SectionHeading';
 
+import '../styles/heading.css';
 import '../styles/highlight.css';
 
 export default function About() {
@@ -70,8 +71,9 @@ export default function About() {
           <a className='openmeal highlight grow' href='https://www.openmeal.org/'>
             OpenMeal
           </a>
-          , an online 501(c)(3) nonprofit platform where donors can purchase meals
-          for individuals financially impacted by COVID-19 from our partnered restaurants.
+          , an online <span className='metric highlight grow'>501(c)(3) nonprofit</span>
+          &nbsp;platform where donors can purchase meals for individuals
+          financially impacted by COVID-19 from our partnered restaurants.
         </p>
         <p className='sentence sentence-hover-glow'>
           Since our launch May 2020, we distributed&nbsp;
@@ -106,7 +108,10 @@ export default function About() {
 
   return (
     <section>
-      <SectionHeading headingTag={'h2'} headingString={'About Me'} />
+      <div className='heading'>
+        <SectionHeading headingTag={'h2'} headingString={'About Me'} />
+        <SectionHeading headingTag={'a'} headingString={'Resume'} />
+      </div>
       {renderIntro()}
       {renderLookingFor()}
       {renderCurrentlyDoing()}
