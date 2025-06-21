@@ -1,9 +1,5 @@
-# Michael's Personal Website
-## Preliminaries
-### GitHub Pages
-Take a look at [GitHub Pages](https://pages.github.com/) to setup your `username.github.io` repository.
-## Google Analytics
-I've added Google Analytics to keep tabs on website visits.
+# My Personal Website
+This is my simple, personal website built using html and tailwind css deployed to the web via [GitHub Pages](https://pages.github.com/).
 
-## License
-MIT License Copyright © 2021 Michael Hwang
+# License
+MIT License Copyright © 2025 Michael Hwang
