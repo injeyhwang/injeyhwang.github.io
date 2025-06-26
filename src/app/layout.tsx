@@ -3,8 +3,10 @@ import type { Metadata } from "next"
 import { Inter, JetBrains_Mono } from "next/font/google"
 import clsx from "clsx"
 
-import Footer from "@components/layout/footer"
-import Header from "@components/layout/header"
+import Footer from "@components/layout/Footer"
+import Header from "@components/layout/Header"
+import PageContainer from "@components/layout/PageContainer"
+import WindowContainer from "@components/layout/WindowContainer"
 
 import "@styles/tailwind.css"
 
@@ -27,19 +29,18 @@ type RootLayoutProps = Readonly<{ children: ReactNode }>
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html
-      lang="en"
-      className="bg-zinc-50 text-zinc-950 dark:bg-zinc-950 dark:text-zinc-50"
-    >
+    <html className="bg-sky-600 text-zinc-700" lang="en">
       <body
         className={clsx(
-          "relative mx-auto min-h-screen max-w-5xl antialiased",
+          "m-4 mx-auto min-h-screen max-w-5xl antialiased",
           interSans.variable,
           jetbrainsMono.variable
         )}
       >
-        <Header />
-        {children}
+        <WindowContainer>
+          <Header />
+          <PageContainer>{children}</PageContainer>
+        </WindowContainer>
         <Footer />
       </body>
     </html>
